@@ -1,7 +1,29 @@
 import React, { Component } from 'react';
 import logo from '../../img/logo.svg';
+import ghIcon from '../../img/github-logo.png';
+import emIcon from '../../img/mail.png';
+import liIcon from '../../img/li3.png';
+import phIcon from '../../img/phone.png';
+import locIcon from '../../img/Home.png';
+
+const me = [
+  'github.com/aayush-k',
+  'aayush.kumar@gatech.edu',
+  'linkedin.com/in/aayushkumar1',
+  '(408) 859-6810',
+  'San Jose, CA - U.S. Citizen'
+];
+
+const icons = [
+  ghIcon,
+  emIcon,
+  liIcon,
+  phIcon,
+  locIcon
+];
 
 class Header extends Component {
+
   render() {
     return (
       <div className='header'>
@@ -14,21 +36,11 @@ class Header extends Component {
         <div className="header_secondary">
           <ul>
             <br />
-            <li>
-              github.com/aayush-k
-            </li>
-            <li>
-              aayush.kumar@gatech.edu
-            </li>
-            <li>
-              linkedin.com/in/aayushkumar1
-            </li>
-            <li>
-              (408)859-6810
-            </li>
-            <li>
-              San Jose, CA - U.S. Citizen
-            </li>
+            {me.map((link, index) => (
+              <li>
+                <img src={icons[index]}/>{link}
+              </li>
+            ))}
           </ul>
         </div>
       </div>

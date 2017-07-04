@@ -30,8 +30,8 @@ class App extends Component {
             <InfoBlock
               icon={gtIcon}
               title='Georgia Institute of Technology'
-              subheader='B.S. in Computer Science - 3.83 GPA'
-              setting='Concentrating in Intelligence and Human Computer Interaction'
+              subheader='B.S. in Computer Science: Intelligence & HCI Threads - 3.83 GPA'
+              setting='Atlanta, GA ● Graduating December 2018'
               full
             />
           </Section>
@@ -177,7 +177,7 @@ class App extends Component {
             />
 
             <InfoList
-              title='_________________________'
+              title='_'
               listItemsA={[
                 '3rd',
                 '1st'
@@ -218,7 +218,7 @@ class App extends Component {
                 'Musician'
               ]}
               listItemsB={[
-                ' - Collegiate Intramurral Ultimate Frisbee, Hiking, Rock Climbing, Camping',
+                ' - College Intramurral Ultimate Frisbee, Hiking, Rock Climbing, Camping',
                 ' - Played Piano for 8 Years and Recorded Covers',
               ]}
             />

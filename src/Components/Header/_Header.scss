@@ -22,7 +22,7 @@
   &_secondary {
     text-align: right;
     flex-grow: 0;
-    color: #222;
+    color: #111;
     height: 0;
     border-bottom: 10rem solid #cf8a05;
     border-left: 5rem solid transparent;
@@ -38,9 +38,17 @@
       border-left: 5rem solid transparent;
     }
     li {
-      margin-right: 3vw;
+      margin: 0 3vw 0 -1rem;
       line-height: 1.6rem;
       text-align: left;
+      img {
+        position: relative;
+        top:0.2rem;
+        height: 1.2rem;
+        // filter: brightness(0.3);
+        margin-right: 0.5rem;
+        mix-blend-mode: difference;
+      }
     }
   }
 }
