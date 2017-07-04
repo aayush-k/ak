@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  background-color: $darkAccent;
+  // padding: 1rem 3vw 1rem 3vw;
+  // color: #fff;
+  height: 10rem;
+  z-index: -1;
+  border-bottom: 0.25rem solid #cf8a05;
+  box-sizing: border-box;
+
+  &_primary {
+    flex-grow: 1;
+    padding: 1rem 3vw 1rem 3vw;
+    overflow: hidden;
+    overflow-wrap: none;
+  }
+  &_logo {
+    animation: header_logo_spin infinite 20s linear;
+    height: 6rem;
+  }
+
+  &_secondary {
+    text-align: right;
+    flex-grow: 0;
+    color: #222;
+    height: 0;
+    border-bottom: 10rem solid #cf8a05;
+    border-left: 5rem solid transparent;
+    box-sizing: border-box;
+
+    ul {
+      list-style: none;
+      box-sizing: border-box;
+      height: 10rem;
+      z-index: 1;
+      margin: 0.25rem 0 0 0;
+      border-bottom: 10rem solid #f3f3f3;
+      border-left: 5rem solid transparent;
+    }
+    li {
+      margin-right: 3vw;
+      line-height: 1.6rem;
+      text-align: left;
+    }
+  }
+}
+
+
+@keyframes header_logo_spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
