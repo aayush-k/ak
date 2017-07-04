@@ -1,0 +1,36 @@
+.infoBlock {
+  &_container {
+    padding: 0.5rem;
+
+    li {
+      font-size: 0.8rem;
+      line-height: 1.1rem;
+    }
+  }
+  &_header {
+    display: flex;
+    &_primary {
+      // min-width: 10%;
+      padding: 0.25rem;
+      padding-left: 0;
+      width: 3.5rem;
+      text-align: center;
+
+      img {
+        height: 3.5rem;
+      }
+
+    }
+    &_secondary {
+      padding: 0.25rem;
+    }
+  }
+  &_description {
+    overflow: hidden;
+    overflow-wrap: break-word;
+    line-height: 1.3rem;
+  }
+  // &_listItems li {
+  //   font-weight: 600;
+  // }
+}
