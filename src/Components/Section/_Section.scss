@@ -1,0 +1,18 @@
+.section {
+  &_container {
+    display: flex;
+    padding: 0.5rem;
+  }
+  &_primary {
+    width: 15vw;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  &_secondary {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+}
