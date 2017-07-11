@@ -1,7 +1,6 @@
 .infoBlock {
   &_container {
-    padding: 0.5rem;
-    // align-self: center;
+    padding: 0.5rem 0.25rem 0.5rem 0.25rem;
 
     li {
       font-size: 0.8rem;
@@ -30,6 +29,12 @@
     overflow: hidden;
     overflow-wrap: break-word;
     line-height: 1.3rem;
+  }
+
+  &_link_icon {
+    width: 0.9rem;
+    height: 0.9rem;
+    padding-left: 0.5rem;
   }
   // &_listItems li {
   //   font-weight: 600;

@@ -24,7 +24,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header/>
         <Container flexCol>
           <Section title='Education'>
             <InfoBlock
@@ -43,15 +43,16 @@ class App extends Component {
                 title='Yahoo: Tripod Project'
                 subheader='Tripod Engineering Intern'
                 setting='San Francisco, CA ● May 2017 - Present'
-                description='Yahoos platform for commoditizes photo and video storage, serving, enrichment, aggregation, and search'
-                listItemsB={[
-                  ' to better validate search query parsing accuracy for improved image search',
-                  ' in React.js to elegantly visualize variably provided EXIF-metadata/ geodata'
-                ]}
+                description={'Yahoo\'s platform for commoditized photo & video storage, serving, enrichment, aggregation, & search'}
                 listItemsA={[
-                  'Refined Tripod Gallery Search Metrics',
+                  'Improved image search parsing accuracy',
                   'Built Tripod Image Viewer UI'
                 ]}
+                listItemsB={[
+                  ' by broadening search metrics & analyzing weaknesses in query processing algorithm',
+                  ' in React.js to help visualize EXIF-metadata/geodata & reusable React component internal library'
+                ]}
+                link={'https://yahooeng.tumblr.com/post/157200523046/introducing-tripod-flickrs-backend-refactored'}
               />
               <InfoBlock
                 icon={adlIcon}
@@ -60,11 +61,12 @@ class App extends Component {
                 setting='Los Altos, CA ● May 2016 - August 2016'
                 description='Real estate developer which focuses on building luxury homes in San Francisco Bay Area'
                 listItemsB={[
-                  ' of accumulated interest on mortgages taken for all unsold properties/ construction sites.',
+                  ' of net interest on mortgages taken for all unsold properties/ construction sites.',
                 ]}
                 listItemsA={[
-                  'Built a realtime RoR data visualization'
+                  'Built a realtime Ruby on Rails data visualization'
                 ]}
+                link={'https://www.arondevelopers.com/'}
               />
               <InfoBlock
                 icon={hIcon}
@@ -73,7 +75,7 @@ class App extends Component {
                 setting='PennApps 2015 ● HackGT 2014, 2015'
                 listItemsB={[
                   ' of shopped goods by charging digital wallet upon leaving the store',
-                  ' for flight attendants and passengers via React WebApp',
+                  ' for flight attendants & passengers via React WebApp',
                 ]}
                 listItemsA={[
                   'Automated customer\'s purchase',
@@ -87,28 +89,30 @@ class App extends Component {
                 title='Project Resurgens'
                 subheader='AHNA AI/IOT Developer'
                 setting='Atlanta, GA ● May 2016 - Present'
-                description='Georgia Tech’s Smart Solar Home and Internet of Things project with focus on self-sustenance and net zero energy and carbon footprint'
+                description='Georgia Tech’s Smart Solar Home & Internet of Things project with focus on self-sustenance & net zero energy & carbon footprint'
                 listItemsB={[
-                  ' using outlet energy consumption data an artifcial neural network',
-                  ' that helps users track electricity and water savings/consumption over time',
+                  ' using outlet reading data to optimize energy consumption',
+                  ' that helps users track electricity & water savings/consumption over time',
                 ]}
                 listItemsA={[
                   'Training a TensorFlow model of electricity consumption',
                   'Building cross-platform React Native App'
                 ]}
+                link={'http://www.resurgenshome.com/'}
               />
               <InfoBlock
                 icon={iIcon}
                 title='iTrans'
                 subheader='Android Developer'
                 setting='Atlanta, GA ● January 2016 - May 2016'
-                description='Faculty research on optimizing campus transportation systems and developing a forecasting, computation, and communication system to improve bus circulation'
+                description='Faculty research on optimizing campus transportation systems & developing a forecasting, computation, & communication system to improve bus circulation'
                 listItemsB={[
-                  ' to enable automatic announcements of bus stop names and broadcast useful information such as route changes, upcoming cancellations and weather forecasts',
+                  '  of bus stops with realtime broadcasts of route changes, upcoming cancellations & weather forecasts with Android TextToSpeech engine',
                 ]}
                 listItemsA={[
-                  'Utilized Android TextToSpeech engine'
+                  'Implemented automated announcements '
                 ]}
+                link={'http://www.nextbuzz.gatech.edu/'}
               />
             </div>
           </Section>
@@ -145,10 +149,10 @@ class App extends Component {
               ]}
               listItemsB={[
                 ' - Intro to AI',
-                ' - Robotics and Perception',
+                ' - Robotics & Perception',
                 ' - User Interface Design',
                 ' - Data Struct/ Algorithms',
-                ' - Objects and Design'
+                ' - Objects & Design'
               ]}
             />
           </Section>
@@ -165,7 +169,7 @@ class App extends Component {
               ]}
             />
             <InfoList
-              title='Speech and Debate'
+              title='Speech & Debate'
               listItemsA={[
                 '2nd',
                 '1st',
@@ -197,7 +201,7 @@ class App extends Component {
                 'Agile/Scrum Development',
                 'Graphic Design',
                 'Public Speaking',
-                'Digital Art and Media'
+                'Digital Art & Media'
               ]}
             />
             <InfoList
@@ -207,7 +211,7 @@ class App extends Component {
                 'Tennis'
               ]}
               listItemsB={[
-                ' - All-Male Competitive Bollywood Fusion Dance Team',
+                ' - All-Male Nationally Competitive Collegiate Bollywood Fusion Dance Team',
                 ' - Competed in the USTA Men\'s Singles Circuit',
               ]}
             />
@@ -219,11 +223,15 @@ class App extends Component {
               ]}
               listItemsB={[
                 ' - College Intramurral Ultimate Frisbee, Hiking, Rock Climbing, Camping',
-                ' - Played Piano for 8 Years and Recorded Covers',
+                ' - Played Piano for 8 Years & Recorded Covers',
               ]}
             />
 
           </Section>
+          <div className='footer'>
+            <img src={logo} className='footer_icon' />
+            Made with React
+          </div>
         </Container>
 
       </div>

@@ -1,9 +1,7 @@
 .header {
   display: flex;
   background-color: $darkAccent;
-  // padding: 1rem 3vw 1rem 3vw;
-  // color: #fff;
-  height: 10rem;
+  height: 9.5rem;
   z-index: -1;
   border-bottom: 0.25rem solid #cf8a05;
   box-sizing: border-box;
@@ -24,17 +22,19 @@
     flex-grow: 0;
     color: #111;
     height: 0;
-    border-bottom: 10rem solid #cf8a05;
+    border-bottom: 9.5rem solid #cf8a05;
     border-left: 5rem solid transparent;
     box-sizing: border-box;
 
     ul {
+      position: relative;
+      top: -0.2rem;
       list-style: none;
       box-sizing: border-box;
-      height: 10rem;
+      height: 9.5rem;
       z-index: 1;
-      margin: 0.25rem 0 0 0;
-      border-bottom: 10rem solid #f3f3f3;
+      margin: 0.6rem 0 0 0;
+      border-bottom: 9.5rem solid #f3f3f3;
       border-left: 5rem solid transparent;
     }
     li {
@@ -50,6 +50,15 @@
         mix-blend-mode: difference;
       }
     }
+  }
+  &_link_icon {
+    width: 0.9rem;
+    height: 0.9rem;
+    padding-left: 0.5rem;
+  }
+
+  &_contact_link {
+    color: #222;
   }
 }
 

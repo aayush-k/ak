@@ -5,3 +5,14 @@ html {
   font-size: 13.7px;
   background-color: #f3f3f3;
 }
+
+.footer {
+  color: #666;
+
+  &_icon {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: -0.7rem;
+    filter: grayscale(100%) brightness(50%);
+  }
+}
