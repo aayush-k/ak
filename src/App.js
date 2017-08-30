@@ -68,27 +68,30 @@ class App extends Component {
                 ]}
                 link={'https://www.arondevelopers.com/'}
               />
-              <InfoBlock
-                icon={hIcon}
-                title='Hackathons'
-                subheader='Student Competitor'
-                setting='PennApps 2015 ● HackGT 2014, 2015'
-                listItemsB={[
-                  ' of shopped goods by charging digital wallet upon leaving the store',
-                  ' for flight attendants & passengers via React WebApp',
-                ]}
-                listItemsA={[
-                  'Automated customer\'s purchase',
-                  'Streamlined in-flight customer service'
-                ]}
-              />
+              
             </div>
             <div style={{ width: '50%' }}>
+              <InfoBlock
+                icon={hIcon}
+                title='Smart City Infrastructure'
+                subheader='Image Processing Team Developer'
+                setting='Atlanta, GA ● August 2017 - present'
+                description='Working under Dr. James Tsai , Dr. Tony Yezzi to use realtime camera feeds to identify roadway asset deficiencies, such as potholes, cracking, etc., and dangerous roadway spots/sections that require safety improvement, etc.'
+                listItemsA={[
+                  'primary',
+                  'primary'
+                ]}
+                listItemsB={[
+                  ' secondary',
+                  ' secondary',
+                ]}
+                link={'http://www.vip.gatech.edu/teams/smart-city-infrastructure'}
+              />
               <InfoBlock
                 icon={rIcon}
                 title='Project Resurgens'
                 subheader='AHNA AI/IOT Developer'
-                setting='Atlanta, GA ● May 2016 - Present'
+                setting='Atlanta, GA ● May 2016 - August 2017'
                 description='Georgia Tech’s Smart Solar Home & Internet of Things project with focus on self-sustenance & net zero energy & carbon footprint'
                 listItemsB={[
                   ' using outlet reading data to optimize energy consumption',
@@ -117,84 +120,60 @@ class App extends Component {
             </div>
           </Section>
           <Divider />
-          <Section title='Technical'>
+          <Section title='Skills'>
             <InfoList
               title='Languages'
               listItemsB={[
                 'Java',
                 'Python',
                 'JavaScript',
+                'Matlab',
+                'HTML/SASS/CSS',
                 'Ruby on Rails',
-                'HTML/CSS'
               ]}
             />
             <InfoList
-              title='Open Source'
+              title='Libraries'
               listItemsB={[
-                'React',
+                'SKLearn',
                 'OpenCV',
+                'React/Redux',
+                'ImmutableJS',
+                'LeafletJS',
                 'Android SDK',
-                'JQuery',
-                'SQL Databases'
+              ]}
+            />
+            <InfoList
+              title='Dev Tools'
+              listItemsB={[
+                'Jira',
+                'Splunk',
+                'HipChat',
+                'Slack',
+                'Linux/RHL (SSH)',
+                'Git/GitHub Workflow',
               ]}
             />
             <InfoList
               title='Coursework'
               listItemsA={[
+                'CS4635',
+                'CS4641',
                 'CS3600',
                 'CS3630',
                 'CS3750',
-                'CS1332',
-                'CS2340'
+                'CS3510',
               ]}
               listItemsB={[
+                ' - Knowledge-Based AI',
+                ' - Computer Vision',
                 ' - Intro to AI',
                 ' - Robotics & Perception',
                 ' - User Interface Design',
-                ' - Data Struct/ Algorithms',
-                ' - Objects & Design'
-              ]}
-            />
-          </Section>
-          <Divider />
-          <Section title='Awards'>
-            <InfoList
-              title='Academic'
-              listItemsA={[
-                'Faculty Honors 2015, 2016',
-                'Dean\'s List'
-              ]}
-              listItemsB={[' - 4.0 GPA in most recent semester',
-                ' - GPA avg of 3.0 or higher',
-              ]}
-            />
-            <InfoList
-              title='Speech & Debate'
-              listItemsA={[
-                '2nd',
-                '1st',
-              ]}
-              listItemsB={[
-                ' - Cal Berkeley National Invitational (117 competitors)',
-                ' - University of Pacific Jon Schamber Invitational',
+                ' - Algorithm Design/Analysis'
               ]}
             />
 
-            <InfoList
-              title='_'
-              listItemsA={[
-                '3rd',
-                '1st'
-              ]}
-              listItemsB={[
-                ' - 3P National Tournament',
-                ' - Santa Clara University Dempsey Cronin Invitational'
-              ]}
-            />
-
-          </Section>
-          <Divider />
-          <Section title='Skills & Interests'>
             <InfoList
               title='Skills'
               listItemsB={[
@@ -204,6 +183,27 @@ class App extends Component {
                 'Digital Art & Media'
               ]}
             />
+         
+            <InfoList
+              title='Awards'
+              listItemsA={[
+                'Faculty Honors 2015, 2016',
+                'Dean\'s List',
+                '2nd',
+                '1st',
+              ]}
+              listItemsB={[' - 4.0 GPA in most recent semester',
+                ' - GPA avg of 3.0 or higher',
+                ' - Cal Berkeley National Speech Invitational (117 competitors)',
+                ' - University of Pacific Jon Schamber Speech Invitational',
+              ]}
+            />
+            
+
+          </Section>
+          <Divider />
+          <Section title='Activities'>
+            
             <InfoList
               title='Extracurriculars'
               listItemsA={[
