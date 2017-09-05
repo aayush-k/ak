@@ -78,12 +78,10 @@ class App extends Component {
                 setting='Atlanta, GA ● August 2017 - present'
                 description='Working under Dr. James Tsai , Dr. Tony Yezzi to use realtime camera feeds to identify roadway asset deficiencies, such as potholes, cracking, etc., and dangerous roadway spots/sections that require safety improvement, etc.'
                 listItemsA={[
-                  'primary',
-                  'primary'
+                  'developing a vehicle detection, categorization, and tracking system',
                 ]}
                 listItemsB={[
-                  ' secondary',
-                  ' secondary',
+                  ' to gather data about traffic flow and behavior patterns using static and dashboard footage',
                 ]}
                 link={'http://www.vip.gatech.edu/teams/smart-city-infrastructure'}
               />
@@ -98,7 +96,7 @@ class App extends Component {
                   ' that helps users track electricity & water savings/consumption over time',
                 ]}
                 listItemsA={[
-                  'Training a TensorFlow model of electricity consumption',
+                  'Training a classification model of electricity consumption',
                   'Building cross-platform React Native App'
                 ]}
                 link={'http://www.resurgenshome.com/'}
