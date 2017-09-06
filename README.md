@@ -1,4 +1,5 @@
 ## Aayush Kumar's Resume
+See resume.pdf in root directory!
 
 More about me:
 [aayush-k.tech](http://aayush-k.tech)
