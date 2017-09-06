@@ -40,14 +40,14 @@ class InfoBlock extends Component {
               </h4>
             </a>) : (<h4>{title}</h4>)}
             <h5>{subheader}</h5>
-            <p style={{fontStyle: 'italic'}}>{setting}</p>
+            <p style={{fontWeight: '700', fontSize: '0.7rem', color: '#bbb', textTransform: 'uppercase', letterSpacing: '1.5px'}}>{setting}</p>
           </div>
         </div>
         <p className='infoBlock_description'>{description}</p>
         <ul className='infoBlock_listItems'>
           {listItemsB && listItemsB.map((item, index) =>
             <li key={index}>
-              <p style={{ display: 'inline-block', fontWeight: '800', fontSize: '0.8rem', color: '#cf8a05' }}>{listItemsA && listItemsA[index]}</p>
+              <p style={{ display: 'inline-block', fontWeight: '800', fontSize: '0.85rem', color: '#cf8a05'}}>{listItemsA && listItemsA[index]}</p>
               {item}
             </li>
           )}

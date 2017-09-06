@@ -6,6 +6,7 @@ import rIcon from './img/resurgens_iot.png';
 import iIcon from './img/iTrans.png';
 import adlIcon from './img/ADL.png';
 import hIcon from './img/hackathon.png';
+import vipIcon from './img/vip.png';
 
 import './App.css';
 
@@ -59,43 +60,68 @@ class App extends Component {
                 title='Aron Developers'
                 subheader='Full Stack Rails Developer Intern'
                 setting='Los Altos, CA ● May 2016 - August 2016'
-                description='Real estate developer which focuses on building luxury homes in San Francisco Bay Area'
+                description='Real estate developer which focuses on building smart, luxury homes in San Francisco Bay Area'
                 listItemsB={[
                   ' of net interest on mortgages taken for all unsold properties/ construction sites.',
+                  ' tables for Loans database',
                 ]}
                 listItemsA={[
-                  'Built a realtime Ruby on Rails data visualization'
+                  'Built a realtime Ruby on Rails data visualization',
+                  'Designed and Implemented SQL'
                 ]}
                 link={'https://www.arondevelopers.com/'}
               />
               <InfoBlock
                 icon={hIcon}
-                title='Hackathons'
-                subheader='Student Competitor'
-                setting='PennApps 2015 ● HackGT 2014, 2015'
+                title='Coursework'
+                subheader='College of Computing Student'
+                setting='Atlanta, GA ● August 2015 - Present'
                 listItemsB={[
-                  ' of shopped goods by charging digital wallet upon leaving the store',
-                  ' for flight attendants & passengers via React WebApp',
+                  ' - CS4635',
+                  ' - CS4641',
+                  ' - CS3600',
+                  ' - CS3630',
+                  ' - CS3750',
+                  ' - CS3510',
                 ]}
                 listItemsA={[
-                  'Automated customer\'s purchase',
-                  'Streamlined in-flight customer service'
+                  'Knowledge-Based AI',
+                  'Computer Vision',
+                  'Intro to AI',
+                  'Robotics & Perception',
+                  'User Interface Design',
+                  'Algorithm Design/Analysis'
                 ]}
               />
+              
             </div>
             <div style={{ width: '50%' }}>
+              <InfoBlock
+                icon={vipIcon}
+                title='Smart City Infrastructure'
+                subheader='Image Processing Team Developer'
+                setting='Atlanta, GA ● August 2017 - present'
+                description='Working under Dr. James Tsai , Dr. Tony Yezzi to develop smart city infrastructure health condition monitoring, detection and diagnosis with the use of emerging technologies'
+                listItemsA={[
+                  'developing a vehicle detection, categorization, and tracking',
+                ]}
+                listItemsB={[
+                  ' system to gather data about traffic flow and behavior patterns using static and dashboard footage',
+                ]}
+                link={'http://www.vip.gatech.edu/teams/smart-city-infrastructure'}
+              />
               <InfoBlock
                 icon={rIcon}
                 title='Project Resurgens'
                 subheader='AHNA AI/IOT Developer'
-                setting='Atlanta, GA ● May 2016 - Present'
-                description='Georgia Tech’s Smart Solar Home & Internet of Things project with focus on self-sustenance & net zero energy & carbon footprint'
+                setting='Atlanta, GA ● May 2016 - August 2017'
+                description='Georgia Tech’s Smart Solar Home & Internet of Things project emphasizing self-sustenance/net zero energy/carbon footprint'
                 listItemsB={[
                   ' using outlet reading data to optimize energy consumption',
                   ' that helps users track electricity & water savings/consumption over time',
                 ]}
                 listItemsA={[
-                  'Training a TensorFlow model of electricity consumption',
+                  'Training a classification model of electricity consumption',
                   'Building cross-platform React Native App'
                 ]}
                 link={'http://www.resurgenshome.com/'}
@@ -117,115 +143,82 @@ class App extends Component {
             </div>
           </Section>
           <Divider />
-          <Section title='Technical'>
+          <Section title='Skills'>
             <InfoList
               title='Languages'
               listItemsB={[
                 'Java',
                 'Python',
                 'JavaScript',
+                'Matlab',
+                'HTML/SASS/CSS',
                 'Ruby on Rails',
-                'HTML/CSS'
               ]}
             />
             <InfoList
-              title='Open Source'
+              title='Libraries'
               listItemsB={[
-                'React',
+                'SKLearn',
                 'OpenCV',
+                'React/Redux',
+                'ImmutableJS',
+                'LeafletJS',
                 'Android SDK',
-                'JQuery',
-                'SQL Databases'
               ]}
             />
             <InfoList
-              title='Coursework'
-              listItemsA={[
-                'CS3600',
-                'CS3630',
-                'CS3750',
-                'CS1332',
-                'CS2340'
-              ]}
+              title='Dev Tools'
               listItemsB={[
-                ' - Intro to AI',
-                ' - Robotics & Perception',
-                ' - User Interface Design',
-                ' - Data Struct/ Algorithms',
-                ' - Objects & Design'
-              ]}
-            />
-          </Section>
-          <Divider />
-          <Section title='Awards'>
-            <InfoList
-              title='Academic'
-              listItemsA={[
-                'Faculty Honors 2015, 2016',
-                'Dean\'s List'
-              ]}
-              listItemsB={[' - 4.0 GPA in most recent semester',
-                ' - GPA avg of 3.0 or higher',
-              ]}
-            />
-            <InfoList
-              title='Speech & Debate'
-              listItemsA={[
-                '2nd',
-                '1st',
-              ]}
-              listItemsB={[
-                ' - Cal Berkeley National Invitational (117 competitors)',
-                ' - University of Pacific Jon Schamber Invitational',
+                'Jira',
+                'Designs & Mockups (Sketch)',
+                'Splunk',
+                'Git/GitHub Workflow',
+                'Linux/RHL (SSH)',
+                'Enterprise Slack/Hipchat',
               ]}
             />
 
-            <InfoList
-              title='_'
-              listItemsA={[
-                '3rd',
-                '1st'
-              ]}
-              listItemsB={[
-                ' - 3P National Tournament',
-                ' - Santa Clara University Dempsey Cronin Invitational'
-              ]}
-            />
+            
+            
+            
 
           </Section>
           <Divider />
-          <Section title='Skills & Interests'>
+          <Section title='Interests'>
+            
             <InfoList
-              title='Skills'
-              listItemsB={[
-                'Agile/Scrum Development',
-                'Graphic Design',
-                'Public Speaking',
-                'Digital Art & Media'
-              ]}
-            />
-            <InfoList
-              title='Extracurriculars'
+              title='Activities'
               listItemsA={[
                 'GT Qurbani',
-                'Tennis'
+                'Tennis',
+                'Recreational',
+                'Musician',
+               
               ]}
               listItemsB={[
                 ' - All-Male Nationally Competitive Collegiate Bollywood Fusion Dance Team',
                 ' - Competed in the USTA Men\'s Singles Circuit',
-              ]}
-            />
-            <InfoList
-              title='Hobbies'
-              listItemsA={[
-                'Recreational Activites',
-                'Musician'
-              ]}
-              listItemsB={[
-                ' - College Intramurral Ultimate Frisbee, Hiking, Rock Climbing, Camping',
+                ' - Collegiate Intramurral Ultimate Frisbee, Hiking, Rock Climbing, Camping',
                 ' - Played Piano for 8 Years & Recorded Covers',
               ]}
             />
+            <InfoList
+              title='Awards'
+              listItemsA={[
+                'Faculty Honors 2015, 2016',
+                'Dean\'s List',
+                '2nd',
+                '1st',
+              ]}
+              listItemsB={[
+                ' - 4.0 GPA in most recent semester',
+                ' - GPA avg of 3.0 or higher',
+                ' - Cal Berkeley National Speech Invitational (117 competitors)',
+                ' - University of Pacific Jon Schamber Speech Invitational',
+              ]}
+            />
+         
+            
 
           </Section>
           <div className='footer'>

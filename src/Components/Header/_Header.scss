@@ -8,7 +8,7 @@
 
   &_primary {
     flex-grow: 1;
-    padding: 1rem 3vw 1rem 3vw;
+    padding: 1rem 2.4vw 1rem 2.4vw;
     overflow: hidden;
     overflow-wrap: none;
   }
@@ -34,11 +34,11 @@
       height: 9.5rem;
       z-index: 1;
       margin: 0.6rem 0 0 0;
-      border-bottom: 9.5rem solid #f3f3f3;
+      border-bottom: 9.5rem solid #fff;
       border-left: 5rem solid transparent;
     }
     li {
-      margin: 0 3vw 0 -1rem;
+      margin: 0 2.4vw 0 -1rem;
       line-height: 1.6rem;
       text-align: left;
       img {
