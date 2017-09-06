@@ -6,6 +6,7 @@ import rIcon from './img/resurgens_iot.png';
 import iIcon from './img/iTrans.png';
 import adlIcon from './img/ADL.png';
 import hIcon from './img/hackathon.png';
+import vipIcon from './img/vip.png';
 
 import './App.css';
 
@@ -59,29 +60,53 @@ class App extends Component {
                 title='Aron Developers'
                 subheader='Full Stack Rails Developer Intern'
                 setting='Los Altos, CA ● May 2016 - August 2016'
-                description='Real estate developer which focuses on building luxury homes in San Francisco Bay Area'
+                description='Real estate developer which focuses on building smart, luxury homes in San Francisco Bay Area'
                 listItemsB={[
                   ' of net interest on mortgages taken for all unsold properties/ construction sites.',
+                  ' tables for Loans database',
                 ]}
                 listItemsA={[
-                  'Built a realtime Ruby on Rails data visualization'
+                  'Built a realtime Ruby on Rails data visualization',
+                  'Designed and Implemented SQL'
                 ]}
                 link={'https://www.arondevelopers.com/'}
+              />
+              <InfoBlock
+                icon={hIcon}
+                title='Coursework'
+                subheader='College of Computing Student'
+                setting='Atlanta, GA ● August 2015 - Present'
+                listItemsB={[
+                  ' - CS4635',
+                  ' - CS4641',
+                  ' - CS3600',
+                  ' - CS3630',
+                  ' - CS3750',
+                  ' - CS3510',
+                ]}
+                listItemsA={[
+                  'Knowledge-Based AI',
+                  'Computer Vision',
+                  'Intro to AI',
+                  'Robotics & Perception',
+                  'User Interface Design',
+                  'Algorithm Design/Analysis'
+                ]}
               />
               
             </div>
             <div style={{ width: '50%' }}>
               <InfoBlock
-                icon={hIcon}
+                icon={vipIcon}
                 title='Smart City Infrastructure'
                 subheader='Image Processing Team Developer'
                 setting='Atlanta, GA ● August 2017 - present'
-                description='Working under Dr. James Tsai , Dr. Tony Yezzi to use realtime camera feeds to identify roadway asset deficiencies, such as potholes, cracking, etc., and dangerous roadway spots/sections that require safety improvement, etc.'
+                description='Working under Dr. James Tsai , Dr. Tony Yezzi to develop smart city infrastructure health condition monitoring, detection and diagnosis with the use of emerging technologies'
                 listItemsA={[
-                  'developing a vehicle detection, categorization, and tracking system',
+                  'developing a vehicle detection, categorization, and tracking',
                 ]}
                 listItemsB={[
-                  ' to gather data about traffic flow and behavior patterns using static and dashboard footage',
+                  ' system to gather data about traffic flow and behavior patterns using static and dashboard footage',
                 ]}
                 link={'http://www.vip.gatech.edu/teams/smart-city-infrastructure'}
               />
@@ -90,7 +115,7 @@ class App extends Component {
                 title='Project Resurgens'
                 subheader='AHNA AI/IOT Developer'
                 setting='Atlanta, GA ● May 2016 - August 2017'
-                description='Georgia Tech’s Smart Solar Home & Internet of Things project with focus on self-sustenance & net zero energy & carbon footprint'
+                description='Georgia Tech’s Smart Solar Home & Internet of Things project emphasizing self-sustenance/net zero energy/carbon footprint'
                 listItemsB={[
                   ' using outlet reading data to optimize energy consumption',
                   ' that helps users track electricity & water savings/consumption over time',
@@ -145,43 +170,38 @@ class App extends Component {
               title='Dev Tools'
               listItemsB={[
                 'Jira',
+                'Designs & Mockups (Sketch)',
                 'Splunk',
-                'HipChat',
-                'Slack',
-                'Linux/RHL (SSH)',
                 'Git/GitHub Workflow',
-              ]}
-            />
-            <InfoList
-              title='Coursework'
-              listItemsA={[
-                'CS4635',
-                'CS4641',
-                'CS3600',
-                'CS3630',
-                'CS3750',
-                'CS3510',
-              ]}
-              listItemsB={[
-                ' - Knowledge-Based AI',
-                ' - Computer Vision',
-                ' - Intro to AI',
-                ' - Robotics & Perception',
-                ' - User Interface Design',
-                ' - Algorithm Design/Analysis'
+                'Linux/RHL (SSH)',
+                'Enterprise Slack/Hipchat',
               ]}
             />
 
+            
+            
+            
+
+          </Section>
+          <Divider />
+          <Section title='Interests'>
+            
             <InfoList
-              title='Skills'
+              title='Activities'
+              listItemsA={[
+                'GT Qurbani',
+                'Tennis',
+                'Recreational',
+                'Musician',
+               
+              ]}
               listItemsB={[
-                'Agile/Scrum Development',
-                'Graphic Design',
-                'Public Speaking',
-                'Digital Art & Media'
+                ' - All-Male Nationally Competitive Collegiate Bollywood Fusion Dance Team',
+                ' - Competed in the USTA Men\'s Singles Circuit',
+                ' - Collegiate Intramurral Ultimate Frisbee, Hiking, Rock Climbing, Camping',
+                ' - Played Piano for 8 Years & Recorded Covers',
               ]}
             />
-         
             <InfoList
               title='Awards'
               listItemsA={[
@@ -190,40 +210,15 @@ class App extends Component {
                 '2nd',
                 '1st',
               ]}
-              listItemsB={[' - 4.0 GPA in most recent semester',
+              listItemsB={[
+                ' - 4.0 GPA in most recent semester',
                 ' - GPA avg of 3.0 or higher',
                 ' - Cal Berkeley National Speech Invitational (117 competitors)',
                 ' - University of Pacific Jon Schamber Speech Invitational',
               ]}
             />
+         
             
-
-          </Section>
-          <Divider />
-          <Section title='Activities'>
-            
-            <InfoList
-              title='Extracurriculars'
-              listItemsA={[
-                'GT Qurbani',
-                'Tennis'
-              ]}
-              listItemsB={[
-                ' - All-Male Nationally Competitive Collegiate Bollywood Fusion Dance Team',
-                ' - Competed in the USTA Men\'s Singles Circuit',
-              ]}
-            />
-            <InfoList
-              title='Hobbies'
-              listItemsA={[
-                'Recreational Activites',
-                'Musician'
-              ]}
-              listItemsB={[
-                ' - College Intramurral Ultimate Frisbee, Hiking, Rock Climbing, Camping',
-                ' - Played Piano for 8 Years & Recorded Covers',
-              ]}
-            />
 
           </Section>
           <div className='footer'>
