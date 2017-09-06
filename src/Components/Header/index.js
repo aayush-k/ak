@@ -5,6 +5,7 @@ import emIcon from '../../img/mail.png';
 import liIcon from '../../img/li3.png';
 import phIcon from '../../img/phone.png';
 import locIcon from '../../img/Home.png';
+import akLogo from '../../img/aklogo3.png'
 
 const me = [
   'github.com/aayush-k',
@@ -40,6 +41,7 @@ class Header extends Component {
 
           <a href='http://aayush-k.tech/'>
           <h2>
+            <img src={akLogo} style={{width: '2rem', marginRight: '0.5rem', verticalAlign: 'middle', opacity: 0.7}}/>
             aayush-k.tech
             <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" version="1.1" className='header_link_icon'>
               <g id="surface1">
