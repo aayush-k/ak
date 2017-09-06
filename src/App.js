@@ -103,7 +103,7 @@ class App extends Component {
                 setting='Atlanta, GA ● August 2017 - present'
                 description='Working under Dr. James Tsai , Dr. Tony Yezzi to develop smart city infrastructure health condition monitoring, detection and diagnosis with the use of emerging technologies'
                 listItemsA={[
-                  'developing a vehicle detection, categorization, and tracking',
+                  'Developing a vehicle detection, categorization, and tracking',
                 ]}
                 listItemsB={[
                   ' system to gather data about traffic flow and behavior patterns using static and dashboard footage',
