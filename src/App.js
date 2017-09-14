@@ -67,7 +67,7 @@ class App extends Component {
                 ]}
                 listItemsA={[
                   'Built a realtime Ruby on Rails data visualization',
-                  'Designed and Implemented SQL'
+                  'Designed & Implemented SQL'
                 ]}
                 link={'https://www.arondevelopers.com/'}
               />
@@ -103,12 +103,12 @@ class App extends Component {
                 setting='Atlanta, GA ● Aug 2017 - present'
                 description='Working under Dr. James Tsai , Dr. Tony Yezzi to develop city infrastructure monitoring/diagnosis with modern technologies'
                 listItemsA={[
-                  'Developing vehicle detection, categorization, and tracking',
+                  'Developing vehicle detection, categorization & tracking',
                   'Using YOLO Real-time object system'
                 ]}
                 listItemsB={[
-                  ' system to gather data about traffic flow and behavior patterns using static and dashboard footage',
-                  ' backed by Tensorflow implementation of darknet and trained on Udacity\'s Autti dataset'
+                  ' system to gather data about traffic flow/behavior patterns using static & dashboard footage',
+                  ' backed by Tensorflow implementation of darknet & trained on Udacity\'s Autti dataset'
                 ]}
                 link={'http://www.vip.gatech.edu/teams/smart-city-infrastructure'}
               />
@@ -117,7 +117,7 @@ class App extends Component {
                 title='Project Resurgens'
                 subheader='AHNA AI/IOT Developer'
                 setting='Atlanta, GA ● May 2016 - Aug 2017'
-                description='Georgia Tech’s Smart Solar Home & Internet of Things project emphasizing self-sustenance/net zero energy/carbon footprint'
+                description={'Georgia Tech’s Smart Solar Home & Internet of Things project emphasizing self-sustenance/net zero energy/carbon footprint'}
                 listItemsB={[
                   ' using outlet reading data to optimize energy consumption',
                   ' that helps users track electricity & water savings/consumption over time',
@@ -140,7 +140,7 @@ class App extends Component {
                 ]}
                 listItemsB={[
                   '  of upcoming bus stops, route changes, impending cancellations & weather forecasts',
-                  '  of bus departure and arrival detection systems'
+                  '  of bus departure & arrival detection systems'
                 ]}
                 link={'http://www.nextbuzz.gatech.edu/'}
               />
