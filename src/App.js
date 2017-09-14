@@ -47,10 +47,10 @@ class App extends Component {
                 description={'Yahoo\'s platform for commoditized photo & video storage, serving, enrichment, aggregation, & search'}
                 listItemsA={[
                   'Improved image search parsing accuracy',
-                  'Built Tripod Image Viewer UI'
+                  'Built Tripod Map & Image Viewer UI'
                 ]}
                 listItemsB={[
-                  ' by broadening search metrics & analyzing weaknesses in query processing algorithm',
+                  ' by broadening search metrics & testing query processing algorithm',
                   ' in React.js to help visualize EXIF-metadata/geodata & reusable React component internal library'
                 ]}
                 link={'https://yahooeng.tumblr.com/post/157200523046/introducing-tripod-flickrs-backend-refactored'}
@@ -99,7 +99,7 @@ class App extends Component {
               <InfoBlock
                 icon={vipIcon}
                 title='Smart City Infrastructure'
-                subheader='Image Processing Team Developer'
+                subheader='Computer Vision Engineer'
                 setting='Atlanta, GA ● August 2017 - present'
                 description='Working under Dr. James Tsai , Dr. Tony Yezzi to develop smart city infrastructure health condition monitoring, detection and diagnosis with the use of emerging technologies'
                 listItemsA={[
