@@ -32,7 +32,7 @@ class App extends Component {
               icon={gtIcon}
               title='Georgia Institute of Technology'
               subheader='B.S. in Computer Science: Intelligence & HCI Threads - 3.83 GPA'
-              setting='Atlanta, GA ● Graduating December 2018'
+              setting='Atlanta, GA ● Graduating Dec 2018'
               full
             />
           </Section>
@@ -43,7 +43,7 @@ class App extends Component {
                 icon={yIcon}
                 title='Yahoo: Tripod Project'
                 subheader='Tripod Engineering Intern'
-                setting='San Francisco, CA ● May 2017 - August 2017'
+                setting={'San Francisco, CA ● May 2017 - Aug 2017'}
                 description={'Yahoo\'s platform for commoditized photo & video storage, serving, enrichment, aggregation, & search'}
                 listItemsA={[
                   'Improved image search parsing accuracy',
@@ -59,10 +59,10 @@ class App extends Component {
                 icon={adlIcon}
                 title='Aron Developers'
                 subheader='Full Stack Rails Developer Intern'
-                setting='Los Altos, CA ● May 2016 - August 2016'
+                setting='Los Altos, CA ● May 2016 - Aug 2016'
                 description='Real estate developer which focuses on building smart, luxury homes in San Francisco Bay Area'
                 listItemsB={[
-                  ' of net interest on mortgages taken for all unsold properties/ construction sites.',
+                  ' of net interest on mortgages for all unsold properties/construction sites.',
                   ' tables for Loans database',
                 ]}
                 listItemsA={[
@@ -75,7 +75,7 @@ class App extends Component {
                 icon={hIcon}
                 title='Coursework'
                 subheader='College of Computing Student'
-                setting='Atlanta, GA ● August 2015 - Present'
+                setting='Atlanta, GA ● Aug 2015 - Present'
                 listItemsB={[
                   ' - CS4635',
                   ' - CS4641',
@@ -100,7 +100,7 @@ class App extends Component {
                 icon={vipIcon}
                 title='Smart City Infrastructure'
                 subheader='Computer Vision Engineer'
-                setting='Atlanta, GA ● August 2017 - present'
+                setting='Atlanta, GA ● Aug 2017 - present'
                 description='Working under Dr. James Tsai , Dr. Tony Yezzi to develop city infrastructure monitoring/diagnosis with modern technologies'
                 listItemsA={[
                   'Developing vehicle detection, categorization, and tracking',
@@ -116,7 +116,7 @@ class App extends Component {
                 icon={rIcon}
                 title='Project Resurgens'
                 subheader='AHNA AI/IOT Developer'
-                setting='Atlanta, GA ● May 2016 - August 2017'
+                setting='Atlanta, GA ● May 2016 - Aug 2017'
                 description='Georgia Tech’s Smart Solar Home & Internet of Things project emphasizing self-sustenance/net zero energy/carbon footprint'
                 listItemsB={[
                   ' using outlet reading data to optimize energy consumption',
@@ -132,7 +132,7 @@ class App extends Component {
                 icon={iIcon}
                 title='iTrans'
                 subheader='Android Developer'
-                setting='Atlanta, GA ● January 2016 - May 2016'
+                setting='Atlanta, GA ● Jan 2016 - May 2016'
                 description='Working with Dr. John Bartholdi to create a forecasting & communication system to optimize bus circulation'
                 listItemsA={[
                   'Implemented realtime Android broadcasts ',
