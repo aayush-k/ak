@@ -22,7 +22,7 @@ h3 {
   font-weight: 400;
   font-style: italic;
   font-size: 1.1rem;
-  color: #cf8a05; }
+  color: #c18815; }
 
 h4 {
   font-family: 'Lato', sans-serif;
@@ -61,7 +61,7 @@ a:visited {
   background-color: #595959;
   height: 9.5rem;
   z-index: -1;
-  border-bottom: 0.25rem solid #cf8a05;
+  border-bottom: 0.25rem solid #c18815;
   box-sizing: border-box; }
   .header_primary {
     flex-grow: 1;
@@ -76,7 +76,7 @@ a:visited {
     flex-grow: 0;
     color: #111;
     height: 0;
-    border-bottom: 9.5rem solid #cf8a05;
+    border-bottom: 9.5rem solid #c18815;
     border-left: 5rem solid transparent;
     box-sizing: border-box; }
     .header_secondary ul {

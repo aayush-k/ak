@@ -43,7 +43,7 @@ class App extends Component {
                 icon={yIcon}
                 title='Yahoo: Tripod Project'
                 subheader='Tripod Engineering Intern'
-                setting='San Francisco, CA ● May 2017 - Present'
+                setting='San Francisco, CA ● May 2017 - August 2017'
                 description={'Yahoo\'s platform for commoditized photo & video storage, serving, enrichment, aggregation, & search'}
                 listItemsA={[
                   'Improved image search parsing accuracy',
@@ -101,12 +101,14 @@ class App extends Component {
                 title='Smart City Infrastructure'
                 subheader='Computer Vision Engineer'
                 setting='Atlanta, GA ● August 2017 - present'
-                description='Working under Dr. James Tsai , Dr. Tony Yezzi to develop smart city infrastructure health condition monitoring, detection and diagnosis with the use of emerging technologies'
+                description='Working under Dr. James Tsai , Dr. Tony Yezzi to develop city infrastructure monitoring/diagnosis with modern technologies'
                 listItemsA={[
                   'Developing vehicle detection, categorization, and tracking',
+                  'Using YOLO Real-time object system'
                 ]}
                 listItemsB={[
                   ' system to gather data about traffic flow and behavior patterns using static and dashboard footage',
+                  ' backed by Tensorflow implementation of darknet and trained on Udacity\'s Autti dataset'
                 ]}
                 link={'http://www.vip.gatech.edu/teams/smart-city-infrastructure'}
               />
@@ -131,12 +133,14 @@ class App extends Component {
                 title='iTrans'
                 subheader='Android Developer'
                 setting='Atlanta, GA ● January 2016 - May 2016'
-                description='Faculty research on optimizing campus transportation systems & developing a forecasting, computation, & communication system to improve bus circulation'
-                listItemsB={[
-                  '  of bus stops with realtime broadcasts of route changes, upcoming cancellations & weather forecasts with Android TextToSpeech engine',
-                ]}
+                description='Working with Dr. John Bartholdi to create a forecasting & communication system to optimize bus circulation'
                 listItemsA={[
-                  'Implemented automated announcements '
+                  'Implemented realtime Android broadcasts ',
+                  'Analyzed accuracy'
+                ]}
+                listItemsB={[
+                  '  of upcoming bus stops, route changes, impending cancellations & weather forecasts',
+                  '  of bus departure and arrival detection systems'
                 ]}
                 link={'http://www.nextbuzz.gatech.edu/'}
               />

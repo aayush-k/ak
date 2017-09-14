@@ -47,7 +47,7 @@ class InfoBlock extends Component {
         <ul className='infoBlock_listItems'>
           {listItemsB && listItemsB.map((item, index) =>
             <li key={index}>
-              <p style={{ display: 'inline-block', fontWeight: '800', fontSize: '0.85rem', color: '#cf8a05'}}>{listItemsA && listItemsA[index]}</p>
+              <p style={{ display: 'inline-block', fontWeight: '800', fontSize: '0.85rem', color: '#c18815'}}>{listItemsA && listItemsA[index]}</p>
               {item}
             </li>
           )}
