@@ -65,11 +65,11 @@ class App extends Component {
                 description='Real estate developer which focuses on building smart, luxury homes in San Francisco Bay Area'
                 listItemsB={[
                   ' being paid for mortgages on all unsold properties/construction sites',
-                  ' tables for Loans database to support realtime ruby on rails data visualization',
+                  ' for Loans database to support realtime ruby on rails data visualization dashboard',
                 ]}
                 listItemsA={[
-                  'Effectively communicated net interest',
-                  'Designed & Implemented SQL'
+                  'Effectively visualized net interest',
+                  'Designed & Implemented SQL Tables'
                 ]}
                 link={'https://www.arondevelopers.com/'}
               />
@@ -182,7 +182,7 @@ class App extends Component {
               title='Dev Tools'
               listItemsB={[
                 'Jira',
-                'Designs & Mockups (Sketch)',
+                'Designs/Mockups (Sketch)',
                 'Splunk',
                 'Git/GitHub Workflow',
                 'Linux/RHL (SSH)',
