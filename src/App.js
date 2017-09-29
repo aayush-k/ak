@@ -7,7 +7,8 @@ import iIcon from './img/iTrans.png';
 import adlIcon from './img/ADL.png';
 import hIcon from './img/hackathon.png';
 import vipIcon from './img/vip.png';
-import rpmIcon from './img/rpm.png'
+import rpmIcon from './img/rpm.png';
+import cvIcon from './img/cv.png';
 
 import './App.css';
 
@@ -48,11 +49,11 @@ class App extends Component {
                 description={'Yahoo\'s platform for commoditized photo & video storage, serving, enrichment, aggregation, & search'}
                 listItemsA={[
                   'Improved image search parsing accuracy',
-                  'Built Tripod Map & Image Viewer UI'
+                  'Built Tripod Map/Image Viewer UI'
                 ]}
                 listItemsB={[
                   ' by broadening search metrics & testing query processing algorithm',
-                  ' in React.js to help visualize EXIF-metadata/geodata & reusable React component internal library'
+                  ' in React.js to visualize EXIF-metadata/geodata for individual users'
                 ]}
                 link={'https://yahooeng.tumblr.com/post/157200523046/introducing-tripod-flickrs-backend-refactored'}
               />
@@ -63,11 +64,11 @@ class App extends Component {
                 setting='Los Altos, CA ● May 2016 - Aug 2016'
                 description='Real estate developer which focuses on building smart, luxury homes in San Francisco Bay Area'
                 listItemsB={[
-                  ' of net interest on mortgages for all unsold properties/construction sites.',
-                  ' tables for Loans database',
+                  ' being paid for mortgages on all unsold properties/construction sites',
+                  ' tables for Loans database to support realtime ruby on rails data visualization',
                 ]}
                 listItemsA={[
-                  'Built a realtime Ruby on Rails data visualization',
+                  'Effectively communicated net interest',
                   'Designed & Implemented SQL'
                 ]}
                 link={'https://www.arondevelopers.com/'}
@@ -86,7 +87,7 @@ class App extends Component {
                   'Using YOLO Real-time object system'
                 ]}
                 listItemsB={[
-                  ' system to gather data about traffic flow/behavior patterns using static & dashboard footage',
+                  ' system to gather data about traffic flow/behavior patterns',
                   ' backed by Tensorflow implementation of darknet & trained on Udacity\'s Autti dataset'
                 ]}
                 link={'http://www.vip.gatech.edu/teams/smart-city-infrastructure'}
@@ -117,29 +118,36 @@ class App extends Component {
               <InfoBlock
                   icon={rpmIcon}
                   title={'Raven\'s Matrix Solver'}
-                  subheader='College of Computing Student'
-                  setting='-'
-                  description={'Designed an Agent that solves Raven\'s Progressive Matrices, a well-established measure of intelligence'}
+                  subheader='Knowledge Based AI Project'
+                  setting='Aug 2017 - present'
+                  description={'Designed a Python Agent that solves Raven\'s Progressive Matrices, a credible measure of intelligence via visual analogies'}
                   listItemsB={[
-                    ' - CS4635',
+                    ' to capture knowledge representation, backed by Numpy adjacency matrices',
+                    ' methodology to determine basic image transformation rules'
                   ]}
                   listItemsA={[
-                    'Knowledge-Based AI',
+                    'Built Semantic Networks',
+                    'Leveraged Generate and Test'
                   ]}
+                  link={'https://github.com/aayush-k/RavensAgent'}
                 />
             </div>
             <div style={{ width: '50%' }}>
               <InfoBlock
-                  icon={hIcon}
-                  title='Coursework'
-                  subheader='College of Computing Student'
-                  setting='Atlanta, GA ● Aug 2015 - Present'
+                  icon={cvIcon}
+                  title='Local Feature Matching'
+                  subheader='Computer Vision Project'
+                  setting='Aug 2017 - present'
+                  description={'Wrote a Matlab algorithm for matching points between multiple views of the same physical scene'}
                   listItemsB={[
-                    ' - CS4635',
+                    ' to identify interest points within corresponding images',
+                    ' to describe each interest point and accurately match corresponding points'
                   ]}
                   listItemsA={[
-                    'Knowledge-Based AI',
+                    'Implemented Harris Corner Detector ',
+                    'Created SIFT Pipeline'
                   ]}
+                  link={'https://github.com/aayush-k/Local-Feature-Matching'}
                 />
             </div>
 
