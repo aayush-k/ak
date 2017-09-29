@@ -7,6 +7,7 @@ import iIcon from './img/iTrans.png';
 import adlIcon from './img/ADL.png';
 import hIcon from './img/hackathon.png';
 import vipIcon from './img/vip.png';
+import rpmIcon from './img/rpm.png'
 
 import './App.css';
 
@@ -71,29 +72,7 @@ class App extends Component {
                 ]}
                 link={'https://www.arondevelopers.com/'}
               />
-              <InfoBlock
-                icon={hIcon}
-                title='Coursework'
-                subheader='College of Computing Student'
-                setting='Atlanta, GA ● Aug 2015 - Present'
-                listItemsB={[
-                  ' - CS4635',
-                  ' - CS4641',
-                  ' - CS3600',
-                  ' - CS3630',
-                  ' - CS3750',
-                  ' - CS3510',
-                ]}
-                listItemsA={[
-                  'Knowledge-Based AI',
-                  'Computer Vision',
-                  'Intro to AI',
-                  'Robotics & Perception',
-                  'User Interface Design',
-                  'Algorithm Design/Analysis'
-                ]}
-              />
-              
+
             </div>
             <div style={{ width: '50%' }}>
               <InfoBlock
@@ -128,25 +107,46 @@ class App extends Component {
                 ]}
                 link={'http://www.resurgenshome.com/'}
               />
-              <InfoBlock
-                icon={iIcon}
-                title='iTrans'
-                subheader='Android Developer'
-                setting='Atlanta, GA ● Jan 2016 - May 2016'
-                description='Working with Dr. John Bartholdi to create a forecasting & communication system to optimize bus circulation'
-                listItemsA={[
-                  'Implemented realtime Android broadcasts ',
-                  'Analyzed accuracy'
-                ]}
-                listItemsB={[
-                  '  of upcoming bus stops, route changes, impending cancellations & weather forecasts',
-                  '  of bus departure & arrival detection systems'
-                ]}
-                link={'http://www.nextbuzz.gatech.edu/'}
-              />
             </div>
           </Section>
+
           <Divider />
+
+          <Section title='Projects'>
+            <div style={{ width: '50%' }}>
+              <InfoBlock
+                  icon={rpmIcon}
+                  title={'Raven\'s Matrix Solver'}
+                  subheader='College of Computing Student'
+                  setting='-'
+                  description={'Designed an Agent that solves Raven\'s Progressive Matrices, a well-established measure of intelligence'}
+                  listItemsB={[
+                    ' - CS4635',
+                  ]}
+                  listItemsA={[
+                    'Knowledge-Based AI',
+                  ]}
+                />
+            </div>
+            <div style={{ width: '50%' }}>
+              <InfoBlock
+                  icon={hIcon}
+                  title='Coursework'
+                  subheader='College of Computing Student'
+                  setting='Atlanta, GA ● Aug 2015 - Present'
+                  listItemsB={[
+                    ' - CS4635',
+                  ]}
+                  listItemsA={[
+                    'Knowledge-Based AI',
+                  ]}
+                />
+            </div>
+
+          </Section>
+
+          <Divider />
+
           <Section title='Skills'>
             <InfoList
               title='Languages'
@@ -163,7 +163,7 @@ class App extends Component {
               title='Libraries'
               listItemsB={[
                 'SKLearn',
-                'OpenCV',
+                'OpenCV/PIL',
                 'React/Redux',
                 'ImmutableJS',
                 'LeafletJS',
@@ -181,15 +181,24 @@ class App extends Component {
                 'Enterprise Slack/Hipchat',
               ]}
             />
-
-            
-            
-            
-
+            <InfoList
+              title='Relevant Courses'
+              listItemsB={[
+                'Knowledge-Based AI',
+                'Computer Vision',
+                'Intro to AI',
+                'Robotics & Perception',
+                'User Interface Design',
+                'Algorithm Design/Analysis'
+              ]}
+            />
           </Section>
+
           <Divider />
+
+
           <Section title='Interests'>
-            
+
             <InfoList
               title='Activities'
               listItemsA={[
@@ -197,7 +206,7 @@ class App extends Component {
                 'Tennis',
                 'Recreational',
                 'Musician',
-               
+
               ]}
               listItemsB={[
                 ' - All-Male Nationally Competitive Collegiate Bollywood Fusion Dance Team',
@@ -221,8 +230,8 @@ class App extends Component {
                 ' - University of Pacific Jon Schamber Speech Invitational',
               ]}
             />
-         
-            
+
+
 
           </Section>
           <div className='footer'>
