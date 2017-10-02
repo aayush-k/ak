@@ -138,7 +138,7 @@ a:visited {
   padding: 0.5rem 0.25rem 0.5rem 0.25rem; }
   .infoBlock_container li {
     font-size: 0.8rem;
-    line-height: 1.1rem; }
+    line-height: 1.2rem; }
 .infoBlock_header {
   display: flex; }
   .infoBlock_header_primary {
@@ -155,7 +155,7 @@ a:visited {
 .infoBlock_description {
   overflow: hidden;
   overflow-wrap: break-word;
-  line-height: 1.3rem; }
+  line-height: 1.35rem; }
 .infoBlock_link_icon {
   width: 0.9rem;
   height: 0.9rem;
@@ -167,7 +167,7 @@ a:visited {
   flex-grow: 1;
   width: calc(25% - 0.5rem); }
   .infoList_container li {
-    line-height: 1.2rem; }
+    line-height: 1.25rem; }
 
 html {
   font-size: 13px;
