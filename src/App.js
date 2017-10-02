@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import yIcon from './img/yIcon.png';
-import gtIcon from './img/gt5.png';
+import gtIcon from './img/gtseal.png';
 import rIcon from './img/resurgens_iot.png';
 import iIcon from './img/iTrans.png';
 import adlIcon from './img/ADL.png';
