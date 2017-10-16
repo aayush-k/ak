@@ -53,7 +53,7 @@ class Header extends Component {
         </div>
         <div className="header_secondary">
           <ul>
-            <br />
+            <div style={{height: '0.5rem'}}/>
             {me.map((link, index) => (
               <a href={urls[index]} className='header_contact_link'><li>
                 <img src={icons[index]}/>{link}

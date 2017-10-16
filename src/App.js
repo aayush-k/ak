@@ -9,6 +9,7 @@ import hIcon from './img/hackathon.png';
 import vipIcon from './img/vip.png';
 import rpmIcon from './img/rpm.png';
 import cvIcon from './img/cv.png';
+import fhIcon from './img/frameHuntBlack.png';
 
 import './App.css';
 
@@ -35,7 +36,6 @@ class App extends Component {
               title='Georgia Institute of Technology'
               subheader='B.S. in Computer Science: Intelligence & HCI Threads - 3.83 GPA'
               setting='Atlanta, GA ● Graduating Dec 2018'
-              full
             />
           </Section>
           <Divider />
@@ -122,17 +122,16 @@ class App extends Component {
                   setting='Aug 2017 - present'
                   description={'Designed a Python Agent that solves Raven\'s Progressive Matrices, a credible measure of intelligence via visual analogies'}
                   listItemsB={[
-                    ' to capture knowledge representation, backed by Numpy adjacency matrices',
-                    ' methodology to determine basic image transformation rules'
+                    ' to capture knowledge representation, backed by Numpy adjacency matrices and object oriented design',
+                    ' methodology to determine basic image transformation rules and improve complex visual pattern recognition'
                   ]}
                   listItemsA={[
                     'Built Semantic Networks',
                     'Leveraged Generate and Test'
                   ]}
                   link={'https://github.com/aayush-k/RavensAgent'}
-                />
-            </div>
-            <div style={{ width: '50%' }}>
+              />
+
               <InfoBlock
                   icon={cvIcon}
                   title='Local Feature Matching'
@@ -140,14 +139,32 @@ class App extends Component {
                   setting='Aug 2017 - present'
                   description={'Wrote a Matlab algorithm for matching points between multiple views of the same physical scene'}
                   listItemsB={[
-                    ' to identify interest points within corresponding images',
-                    ' to describe each interest point and accurately match corresponding points'
+                    ' to identify reproducable and salient interest points within corresponding images',
+                    ' to describe each interest point optimally for improved point matching correspondence'
                   ]}
                   listItemsA={[
                     'Implemented Harris Corner Detector ',
                     'Created SIFT Pipeline'
                   ]}
                   link={'https://github.com/aayush-k/Local-Feature-Matching'}
+                />
+            </div>
+            <div style={{ width: '50%' }}>
+              <InfoBlock
+                  icon={fhIcon}
+                  title='FrameHunt'
+                  subheader='First Place at HackGT'
+                  setting='Oct 2017 - present'
+                  description={'The Ctrl-F for Videos: A tool that helps users quickly search and skip to parts of a video based on visual content'}
+                  listItemsA={[
+                    'Worked on Clarifai API Integration',
+                    'Built data flow, state management and oversaw design',
+                  ]}
+                  listItemsB={[
+                    ' and video processing/search indexing optimizations for faster, more helpful searches',
+                    ' of ReactJS WebApp backed by Amazon EC2 server and ExpressJS',
+                  ]}
+                  link={'https://devpost.com/software/framehunt-ai4o96'}
                 />
             </div>
 
@@ -211,31 +228,25 @@ class App extends Component {
               title='Activities'
               listItemsA={[
                 'GT Qurbani',
-                'Tennis',
                 'Recreational',
-                'Musician',
 
               ]}
               listItemsB={[
-                ' - All-Male Nationally Competitive Collegiate Bollywood Fusion Dance Team',
-                ' - Competed in the USTA Men\'s Singles Circuit',
-                ' - Collegiate Intramurral Ultimate Frisbee, Hiking, Rock Climbing, Camping',
-                ' - Played Piano for 8 Years & Recorded Covers',
+                ' All-Male Nationally Competitive Collegiate Bollywood Fusion Dance Team',
+                ' USTA Men\'s Singles Circuit, Collegiate Intramurral Ultimate Frisbee, Hiking, Rock Climbing, Camping',
               ]}
             />
             <InfoList
               title='Awards'
               listItemsA={[
                 'Faculty Honors 2015, 2016',
-                'Dean\'s List',
                 '2nd',
-                '1st',
+                '1st'
               ]}
               listItemsB={[
-                ' - 4.0 GPA in most recent semester',
-                ' - GPA avg of 3.0 or higher',
-                ' - Cal Berkeley National Speech Invitational (117 competitors)',
-                ' - University of Pacific Jon Schamber Speech Invitational',
+                ' 4.0 GPA in most recent semester',
+                ' Cal Berkeley National Speech Invitational (117 competitors)',
+                ' University of Pacific Jon Schamber Speech Invitational'
               ]}
             />
 

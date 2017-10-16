@@ -58,14 +58,14 @@ a:visited {
 
 .header {
   display: flex;
-  background-color: #595959;
-  height: 9.5rem;
+  background-color: #5d5d5d;
+  height: 8.5rem;
   z-index: -1;
   border-bottom: 0.25rem solid #c18815;
   box-sizing: border-box; }
   .header_primary {
     flex-grow: 1;
-    padding: 1rem 2.4vw 1rem 2.4vw;
+    padding: 0.5rem 2.4vw 0.5rem 2.4vw;
     overflow: hidden;
     overflow-wrap: none; }
   .header_logo {
@@ -76,7 +76,7 @@ a:visited {
     flex-grow: 0;
     color: #111;
     height: 0;
-    border-bottom: 9.5rem solid #c18815;
+    border-bottom: 8.5rem solid #c18815;
     border-left: 5rem solid transparent;
     box-sizing: border-box; }
     .header_secondary ul {
@@ -84,10 +84,10 @@ a:visited {
       top: -0.2rem;
       list-style: none;
       box-sizing: border-box;
-      height: 9.5rem;
+      height: 8.5rem;
       z-index: 1;
-      margin: 0.6rem 0 0 0;
-      border-bottom: 9.5rem solid #fff;
+      margin: 0.5rem 0 0 0;
+      border-bottom: 8.5rem solid #fff;
       border-left: 5rem solid transparent; }
     .header_secondary li {
       margin: 0 2.4vw 0 -1rem;
