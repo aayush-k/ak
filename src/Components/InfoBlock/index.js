@@ -32,7 +32,7 @@ class InfoBlock extends Component {
               </h4>
             </a>) : (<h4>{title}</h4>)}
             <h5>{subheader}</h5>
-            <p style={{fontWeight: '700', fontSize: '0.7rem', color: '#999', textTransform: 'uppercase', letterSpacing: '1.5px'}}>{setting}</p>
+            <p style={{fontWeight: '700', fontSize: '0.7rem', color: '#999', textTransform: 'uppercase', letterSpacing: '1.5px', paddingTop: '0.1rem'}}>{setting}</p>
           </div>
         </div>
         <p className='infoBlock_description'>{description}</p>
