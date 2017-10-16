@@ -1,10 +1,10 @@
 .infoBlock {
   &_container {
-    padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+    padding: 0.75rem 0.25rem 0.75rem 0.25rem;
 
     li {
       font-size: 0.8rem;
-      line-height: 1.2rem;
+      line-height: 1.35rem;
     }
   }
   &_header {
@@ -13,13 +13,13 @@
       // min-width: 10%;
       padding: 0.25rem;
       padding-left: 0;
-      width: 3.5rem;
-      max-width: 3.5rem;
+      width: 3.75rem;
+      max-width: 3.75rem;
       text-align: center;
 
       img {
-        max-height: 3.5rem;
-        max-width: 3.5rem;
+        max-height: 3.75rem;
+        max-width: 3.75rem;
       }
 
     }
@@ -30,7 +30,7 @@
   &_description {
     overflow: hidden;
     overflow-wrap: break-word;
-    line-height: 1.35rem;
+    line-height: 1.45rem;
   }
 
   &_link_icon {

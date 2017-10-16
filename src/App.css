@@ -17,12 +17,12 @@ h2 {
 
 h3 {
   font-family: 'Lato', sans-serif;
-  letter-spacing: 0.5px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   font-weight: 400;
-  font-style: italic;
-  font-size: 1.1rem;
-  color: #c18815; }
+  font-size: 1.5rem;
+  color: #c18815;
+  margin: 0.5rem 0 0.15rem 0; }
 
 h4 {
   font-family: 'Lato', sans-serif;
@@ -30,14 +30,16 @@ h4 {
   font-size: 1.1rem;
   font-weight: 300;
   color: #666;
-  margin: 0; }
+  margin: 0;
+  line-height: 1.5rem; }
 
 h5 {
   font-weight: bold;
   margin: 0 0 0.2rem 0;
   color: #000;
   letter-spacing: 0.5px;
-  font-size: 0.9rem; }
+  font-size: 0.9rem;
+  line-height: 1.3rem; }
 
 div, p, li {
   font-family: 'Lato', sans-serif;
@@ -58,14 +60,14 @@ a:visited {
 
 .header {
   display: flex;
-  background-color: #595959;
-  height: 9.5rem;
+  background-color: #5d5d5d;
+  height: 9rem;
   z-index: -1;
   border-bottom: 0.25rem solid #c18815;
   box-sizing: border-box; }
   .header_primary {
     flex-grow: 1;
-    padding: 1rem 2.4vw 1rem 2.4vw;
+    padding: 0.5rem 2.4vw 0.5rem 2.4vw;
     overflow: hidden;
     overflow-wrap: none; }
   .header_logo {
@@ -76,7 +78,8 @@ a:visited {
     flex-grow: 0;
     color: #111;
     height: 0;
-    border-bottom: 9.5rem solid #c18815;
+    width: 25rem;
+    border-bottom: 9rem solid #c18815;
     border-left: 5rem solid transparent;
     box-sizing: border-box; }
     .header_secondary ul {
@@ -84,25 +87,26 @@ a:visited {
       top: -0.2rem;
       list-style: none;
       box-sizing: border-box;
-      height: 9.5rem;
+      height: 9rem;
       z-index: 1;
-      margin: 0.6rem 0 0 0;
-      border-bottom: 9.5rem solid #fff;
+      margin: 0.5rem 0 0 0;
+      border-bottom: 9rem solid #fff;
       border-left: 5rem solid transparent; }
     .header_secondary li {
       margin: 0 2.4vw 0 -1rem;
-      line-height: 1.6rem;
+      line-height: 1.45rem;
       text-align: left; }
       .header_secondary li img {
         position: relative;
         top: 0.2rem;
-        height: 1.2rem;
+        height: 1.25rem;
         margin-right: 0.5rem;
         mix-blend-mode: difference; }
   .header_link_icon {
     width: 0.9rem;
     height: 0.9rem;
     padding-left: 0.5rem;
+    filter: invert(1);
     opacity: 0.8;
     vertical-align: middle; }
   .header_contact_link {
@@ -121,10 +125,8 @@ a:visited {
   align-self: center; }
 
 .section_container {
-  display: flex;
   padding: 0.5rem 0 0.5rem 0; }
 .section_primary {
-  width: 15vw;
   box-sizing: border-box;
   overflow: hidden; }
 .section_secondary {
@@ -135,39 +137,39 @@ a:visited {
   box-sizing: border-box; }
 
 .infoBlock_container {
-  padding: 0.5rem 0.25rem 0.5rem 0.25rem; }
+  padding: 0.75rem 0.25rem 0.75rem 0.25rem; }
   .infoBlock_container li {
     font-size: 0.8rem;
-    line-height: 1.2rem; }
+    line-height: 1.35rem; }
 .infoBlock_header {
   display: flex; }
   .infoBlock_header_primary {
     padding: 0.25rem;
     padding-left: 0;
-    width: 3.5rem;
-    max-width: 3.5rem;
+    width: 3.75rem;
+    max-width: 3.75rem;
     text-align: center; }
     .infoBlock_header_primary img {
-      max-height: 3.5rem;
-      max-width: 3.5rem; }
+      max-height: 3.75rem;
+      max-width: 3.75rem; }
   .infoBlock_header_secondary {
     padding: 0.25rem; }
 .infoBlock_description {
   overflow: hidden;
   overflow-wrap: break-word;
-  line-height: 1.35rem; }
+  line-height: 1.45rem; }
 .infoBlock_link_icon {
   width: 0.9rem;
   height: 0.9rem;
   padding-left: 0.5rem; }
 
 .infoList_container {
-  padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+  padding: 0.25rem 0.25rem 0.75rem 0.25rem;
   display: inline-block;
   flex-grow: 1;
   width: calc(25% - 0.5rem); }
   .infoList_container li {
-    line-height: 1.25rem; }
+    line-height: 1.35rem; }
 
 html {
   font-size: 13px;
@@ -177,9 +179,9 @@ html {
   color: #666;
   margin-top: -0.5rem; }
   .footer_icon {
-    width: 2rem;
-    height: 2rem;
-    margin-bottom: -0.7rem;
-    filter: grayscale(100%) brightness(50%); }
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    margin-bottom: -0.4rem;
+    margin-right: 0.5rem; }
 
 /*# sourceMappingURL=App.css.map */

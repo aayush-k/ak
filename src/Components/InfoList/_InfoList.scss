@@ -1,11 +1,11 @@
 .infoList {
   &_container{
-    padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+    padding: 0.25rem 0.25rem 0.75rem 0.25rem;
     display: inline-block;
     flex-grow: 1;
     width: calc(25% - 0.5rem);
     li {
-      line-height: 1.25rem;
+      line-height: 1.35rem;
     }
   }
 }
