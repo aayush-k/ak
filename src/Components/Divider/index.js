@@ -27,7 +27,7 @@ Divider.propTypes = {
 
 Divider.defaultProps = {
   color: '#dedede',
-  width: '100%',
+  width: '97%',
   height: '0.07rem',
 }
 

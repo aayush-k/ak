@@ -9,9 +9,6 @@ class Container extends Component {
 
     const styles = { flexDirection: (flexCol ? 'column' : 'row') };
 
-    console.log(styles.flexDirection);
-
-
     return (
       <div className='container' style={styles}>
         {this.props.children}
