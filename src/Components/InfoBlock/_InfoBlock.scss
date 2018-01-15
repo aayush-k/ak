@@ -10,7 +10,6 @@
   &_header {
     display: flex;
     &_primary {
-      // min-width: 10%;
       padding: 0.25rem;
       padding-left: 0;
       width: 3.75rem;
@@ -21,7 +20,6 @@
         max-height: 3.75rem;
         max-width: 3.75rem;
       }
-
     }
     &_secondary {
       padding: 0.25rem;
@@ -38,7 +36,4 @@
     height: 0.9rem;
     padding-left: 0.5rem;
   }
-  // &_listItems li {
-  //   font-weight: 600;
-  // }
-}
+  }
