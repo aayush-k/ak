@@ -10,6 +10,7 @@ import vipIcon from './img/vip.png';
 import rpmIcon from './img/rpm.png';
 import cvIcon from './img/cv.png';
 import fhIcon from './img/frameHuntBlack.png';
+import faceIcon from './img/face-detect.svg';
 
 import './App.css';
 
@@ -83,7 +84,7 @@ class App extends Component {
                   icon={vipIcon}
                   title='Smart City Infrastructure'
                   subheader='Computer Vision Engineer'
-                  setting='Atlanta, GA ● Aug 2017 - present'
+                  setting='Atlanta, GA ● Aug 2017 - Dec 2017'
                   description='Working under Dr. James Tsai & Dr. Tony Yezzi to develop city infrastructure monitoring/diagnosis with modern technologies'
                   listItemsA={[
                     'Developing vehicle detection, categorization & tracking',
@@ -96,20 +97,18 @@ class App extends Component {
                   link={'http://www.vip.gatech.edu/teams/smart-city-infrastructure'}
                 />
                 <InfoBlock
-                  icon={adlIcon}
-                  title='Aron Developers'
-                  subheader='Full Stack Rails Developer Intern'
-                  setting='Los Altos, CA ● May 2016 - Aug 2016'
-                  description='Real estate developer which focuses on building smart, luxury homes in San Francisco Bay Area'
+                  icon={iIcon}
+                  title='iTrans'
+                  subheader='Android Developer'
+                  setting='Atlanta, GA ● Jan 2016 - May 2016'
+                  description='Faculty research on optimizing campus transportation systems & developing a forecasting, computation, & communication system to improve bus circulation'
                   listItemsB={[
-                    ' being paid for mortgages on all unsold properties/construction sites',
-                    ' for Loans database to support realtime ruby on rails data visualization dashboard',
+                    '  of bus stops with realtime broadcasts of route changes, upcoming cancellations & weather forecasts with Android TextToSpeech engine',
                   ]}
                   listItemsA={[
-                    'Effectively visualized net interest',
-                    'Designed & Implemented SQL Tables'
+                    'Implemented automated announcements '
                   ]}
-                  link={'https://www.arondevelopers.com/'}
+                  link={'http://www.nextbuzz.gatech.edu/'}
                 />
                 </div>
             </Section>
@@ -120,37 +119,38 @@ class App extends Component {
             <Section title='Projects'>
             <div style={{width: '50%'}}>
               <InfoBlock
-                    icon={rpmIcon}
-                    title={'Raven\'s Matrix Solver'}
-                    subheader='Knowledge Based AI Project'
-                    setting='Aug 2017 - present'
-                    description={'Built a Python Agent to solve Raven\'s Progressive Matrices, a credible measure of intelligence via visual analogies'}
-                    listItemsB={[
-                      ' to capture knowledge representation using Numpy adjacency matrices & object oriented design',
-                      ' methodology to determine affine image transformations & recognize complex visual patterns'
-                    ]}
-                    listItemsA={[
-                      'Built Semantic Networks',
-                      'Leveraged Generate & Test'
-                    ]}
-                    link={'https://github.com/aayush-k/RavensAgent'}
+                  icon={rpmIcon}
+                  title={'Raven\'s Matrix Solver'}
+                  subheader='Knowledge-Based AI Project'
+                  setting='Aug 2017 - Dec 2017'
+                  description={'Built a Python Agent to solve Raven\'s Progressive Matrices, a credible measure of intelligence via visual analogies'}
+                  listItemsB={[
+                    ' to capture knowledge representation using Numpy adjacency matrices & object oriented design',
+                    ' methodology to determine affine image transformations & recognize complex visual patterns'
+                  ]}
+                  listItemsA={[
+                    'Built Semantic Networks',
+                    'Leveraged Generate & Test'
+                  ]}
+                  link={'https://github.com/aayush-k/RavensAgent'}
                 />
 
                 <InfoBlock
-                    icon={cvIcon}
-                    title='Local Feature Matching'
-                    subheader='Computer Vision Project'
-                    setting='Aug 2017 - present'
-                    description={'Wrote a Matlab algorithm for matching points between multiple views of the same physical scene'}
-                    listItemsB={[
-                      ' to identify reproducable & salient interest points in corresponding images',
-                      ' to describe each interest point optimally for improved point matching correspondence'
-                    ]}
-                    listItemsA={[
-                      'Implemented Harris Corner Detector ',
-                      'Created SIFT Pipeline'
-                    ]}
-                    link={'https://github.com/aayush-k/Local-Feature-Matching'}
+                  icon={cvIcon}
+                  title='Scene Recognition'
+                  subheader='Computer Vision Project'
+                  setting='Oct 2017 - Dec 2017'
+                  description={'Explored Deep Learning and Bag of Words + SVM approaches to Scene Recognition task (accuracy measured with test set)'}
+                  listItemsA={[
+                    'Designed Deep Neural Network ',
+                    'Trained 15 one-vs-all Linear SVMs '
+                  ]}
+                  listItemsB={[
+                    ' from scratch (54% accuracy) & fine-tuned the pre-trained VGG-F deep network (89% accuracy)',
+                    ' fed with Bag of SIFT features (66.1% accuracy) & k nearest neighbors (42.3% accuracy)'
+                  ]}
+
+                  link={'https://github.com/aayush-k/Scene-Recognition-Deep-Learning'}
                 />
               </div>
               <div style={{width: '50%'}}>
@@ -161,7 +161,7 @@ class App extends Component {
                     setting='Oct 2017 - present'
                     description={'The Ctrl-F for Videos: A tool that helps users quickly search & skip to parts of a video based on visual content'}
                     listItemsA={[
-                      'Worked on Clarifai API Integration',
+                      'Integrated on Clarifai API ',
                       'Built data flow, state management & oversaw design',
                     ]}
                     listItemsB={[
@@ -171,19 +171,23 @@ class App extends Component {
                     link={'https://devpost.com/software/framehunt-ai4o96'}
                 />
                 <InfoBlock
-                  icon={iIcon}
-                  title='iTrans'
-                  subheader='Android Developer'
-                  setting='Atlanta, GA ● January 2016 - May 2016'
-                  description='Faculty research on optimizing campus transportation systems & developing a forecasting, computation, & communication system to improve bus circulation'
-                  listItemsB={[
-                    '  of bus stops with realtime broadcasts of route changes, upcoming cancellations & weather forecasts with Android TextToSpeech engine',
-                  ]}
+                  icon={faceIcon}
+                  title='Face Detection'
+                  subheader='Computer Vision Project'
+                  setting='Nov 2017'
+                  description='Trained a classifier to detect faces using a sliding window classification, inspired by Dalal & Triggs 2005'
                   listItemsA={[
-                    'Implemented automated announcements '
+                    'Built HOG Descriptions ',
+                    'Leveraged Hard Negative Mining '
                   ]}
-                  link={'http://www.nextbuzz.gatech.edu/'}
+                  listItemsB={[
+                    '  (Histogram of Oriented Gradients) of postive & negative examples in Caltech Web Faces dataset',
+                    ' to boost classifier accuracy & augmented positive example data with horizontally mirrored faces'
+                  ]}
+
+                  link={'https://github.com/aayush-k/Face-Detection'}
                 />
+
               </div>
 
             </Section>
@@ -197,7 +201,7 @@ class App extends Component {
 
           </div>
 
-          <div style={{ width: '26.5%', marginLeft: '1rem' }}>
+          <div style={{ width: '26.5%', marginLeft: '0.7rem' }}>
           <Section title='Skills'>
             <InfoList
                 title='Languages'
@@ -226,7 +230,7 @@ class App extends Component {
               <InfoList
                 title='Dev Tools'
                 listItemsB={[
-                  'Jira',
+                  'Jira Issue Tracking',
                   'Designs/Mockups (Sketch)',
                   'Splunk',
                   'Git/GitHub Workflow',
@@ -238,12 +242,14 @@ class App extends Component {
               <InfoList
                 title='Relevant Courses'
                 listItemsB={[
+                  'Natural Language Processing',
                   'Knowledge-Based AI',
                   'Computer Vision',
                   'Intro to AI',
                   'Robotics & Perception',
+                  'Algorithm Design/Analysis',
+                  'Info Visualization',
                   'User Interface Design',
-                  'Algorithm Design/Analysis'
                 ]}
               sidebar
               />
@@ -264,16 +270,16 @@ class App extends Component {
               />
 
                 <InfoList
-                  title='Speech and Debate'
+                  title='Speech & Debate'
                   listItemsA={[
                     '2nd',
                     '1st',
                     'VP of Speech',
                   ]}
                     listItemsB={[
-                      ' Cal Berkeley National Invitational (117 competitors)',
+                      ' Cal Berkeley National Invitational (117 entries)',
                       ' University of Pacific Jon Schamber Invitational',
-                      ' Facilitated administrative tasks for Leland High School’s Speech & Debate Team of over 300 students'
+                      ' Facilitated administrative tasks for Leland Speech & Debate Team of 300+ students'
                     ]}
                   sidebar
                 />
