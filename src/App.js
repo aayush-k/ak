@@ -11,6 +11,7 @@ import rpmIcon from './img/rpm.png';
 import cvIcon from './img/cv.png';
 import fhIcon from './img/frameHuntBlack.png';
 import faceIcon from './img/face-detect.svg';
+import fIcon from './img/fb.png';
 
 import './App.css';
 
@@ -44,6 +45,13 @@ class App extends Component {
             <Divider />
             <Section title='Experience'>
             <div style={{width: '50%'}}>
+                {/* <InfoBlock
+                  icon={fIcon}
+                  title='Facebook'
+                  subheader='[Incoming] Software Engineering Intern'
+                  setting={'Seattle, WA ● May 2018 - Aug 2018'}
+                  description={'Messenger Assistant Team'}
+                /> */}
                 <InfoBlock
                   icon={yIcon}
                   title='Yahoo: Tripod Project'
@@ -79,7 +87,22 @@ class App extends Component {
 
               </div>
               <div style={{width: '50%'}}>
-
+                {/* <InfoBlock
+                  icon={adlIcon}
+                  title='Aron Developers'
+                  subheader='Full Stack Rails Developer Intern'
+                  setting='Los Altos, CA ● May 2016 - Aug 2016'
+                  description='Real estate developer which focuses on building smart, luxury homes in San Francisco Bay Area'
+                  listItemsB={[
+                    ' being paid for mortgages on all unsold properties/construction sites',
+                    ' for Loans database to support realtime ruby on rails data visualization dashboard',
+                  ]}
+                  listItemsA={[
+                    'Effectively visualized net interest',
+                    'Designed & Implemented SQL Tables'
+                  ]}
+                  link={'https://www.arondevelopers.com/'}
+                /> */}
                 <InfoBlock
                   icon={vipIcon}
                   title='Smart City Infrastructure'
