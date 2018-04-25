@@ -12,6 +12,7 @@ import cvIcon from './img/cv.png';
 import fhIcon from './img/frameHuntBlack.png';
 import faceIcon from './img/face-detect.svg';
 import fIcon from './img/fb.png';
+import ptIcon from './img/DPTree.png';
 
 import './App.css';
 
@@ -39,7 +40,7 @@ class App extends Component {
                 icon={gtIcon}
                 title='Georgia Institute of Technology'
                 subheader='B.S. in Computer Science: Intelligence & HCI Threads - 3.83 GPA'
-                setting='Atlanta, GA ● Graduating Dec 2018'
+                setting='Atlanta, GA ● Graduating May 2019'
               />
             </Section>
             <Divider />
@@ -140,30 +141,31 @@ class App extends Component {
 
 
             <Section title='Projects'>
-            <div style={{width: '50%'}}>
-              <InfoBlock
-                  icon={rpmIcon}
-                  title={'Raven\'s Matrix Solver'}
-                  subheader='Knowledge-Based AI Project'
-                  setting='Aug 2017 - Dec 2017'
-                  description={'Built a Python Agent to solve Raven\'s Progressive Matrices, a credible measure of intelligence via visual analogies'}
-                  listItemsB={[
-                    ' to capture knowledge representation using Numpy adjacency matrices & object oriented design',
-                    ' methodology to determine affine image transformations & recognize complex visual patterns'
-                  ]}
+              <div style={{ width: '50%' }}>
+                <InfoBlock
+                  icon={ptIcon}
+                  title='Dependency Parsing'
+                  subheader='Natural Language Jupyter Notebooks'
+                  setting='Mar 2018 - Apr 2018'
+                  description='Created a deep transition dependency parser in PyTorch with 93.6% (English) and 94.8% (Norwegian) dev accuracies'
                   listItemsA={[
-                    'Built Semantic Networks',
-                    'Leveraged Generate & Test'
+                    'Built arc-standard transition-based dependency parser ',
+                    'Implemented neural network components '
                   ]}
-                  link={'https://github.com/aayush-k/RavensAgent'}
+                  listItemsB={[
+                    ' using various methods of computing word embeddings',
+                    ' for choosing actions and combining stack elements'
+                  ]}
+
+                  link={'https://github.com/aayush-k/NLP_Projects/blob/master/DependencyParsing.ipynb'}
                 />
 
                 <InfoBlock
                   icon={cvIcon}
                   title='Scene Recognition'
-                  subheader='Computer Vision Project'
+                  subheader='Computer Vision MATLAB Project'
                   setting='Oct 2017 - Dec 2017'
-                  description={'Explored Deep Learning and Bag of Words + SVM approaches to Scene Recognition task (accuracy measured with test set)'}
+                  description={'Explored Deep Learning & Bag of Words/SVM approaches to Scene Recognition task - accuracies measured with test set:'}
                   listItemsA={[
                     'Designed Deep Neural Network ',
                     'Trained 15 one-vs-all Linear SVMs '
@@ -180,20 +182,37 @@ class App extends Component {
                 <InfoBlock
                     icon={fhIcon}
                     title='FrameHunt'
-                    subheader='1st at HackGT (185 submissions)'
-                    setting='Oct 2017 - present'
-                    description={'The Ctrl-F for Videos: A tool that helps users quickly search & skip to parts of a video based on visual content'}
+                    subheader='1st at HackGT 2017 (185 submissions)'
+                    setting='Oct 2017'
+                    description={'The Ctrl-F for Videos: A tool that helps users quickly search & skip to parts of a video based on visual content with Node.js'}
                     listItemsA={[
-                      'Integrated on Clarifai API ',
+                      'Integrated Clarifai API ',
                       'Built data flow, state management & oversaw design',
                     ]}
                     listItemsB={[
-                      ' & optimized video processing & search indexing for faster, more helpful searches',
+                      ' and optimized video processing/search indexing pipelines for faster, more helpful searches',
                       ' of ReactJS WebApp backed by Amazon EC2 server & ExpressJS',
                     ]}
                     link={'https://devpost.com/software/framehunt-ai4o96'}
                 />
                 <InfoBlock
+                  icon={rpmIcon}
+                  title={'Raven\'s Matrix Solver'}
+                  subheader='Knowledge-Based AI Python Project'
+                  setting='Aug 2017 - Dec 2017'
+                  description={'Built an Agent to solve Raven\'s Progressive Matrices, visual analogies to assess IQ, with 83.7% train & 65.9% test accuracies'}
+                  listItemsB={[
+                    ' to capture knowledge representation using Numpy adjacency matrices & object oriented design',
+                    ' methodology to determine affine image transformations & recognize complex visual patterns'
+                  ]}
+                  listItemsA={[
+                    'Built Semantic Networks',
+                    'Leveraged Generate & Test'
+                  ]}
+                  link={'https://github.com/aayush-k/RavensAgent'}
+                />
+
+                {/* <InfoBlock
                   icon={faceIcon}
                   title='Face Detection'
                   subheader='Computer Vision Project'
@@ -209,7 +228,7 @@ class App extends Component {
                   ]}
 
                   link={'https://github.com/aayush-k/Face-Detection'}
-                />
+                /> */}
 
               </div>
 
@@ -241,11 +260,11 @@ class App extends Component {
               <InfoList
                 title='Libraries'
                 listItemsB={[
-                  'SKLearn/Tensorflow',
-                  'OpenCV/PIL',
+                  'PyTorch',
+                  'Tensorflow',
+                  'SKLearn/OpenCV',
                   'ReactJS/React Native',
-                  'Redux/ImmutableJS',
-                  'LeafletJS',
+                  // 'Redux/ImmutableJS',
                   'Android SDK',
                 ]}
               sidebar
