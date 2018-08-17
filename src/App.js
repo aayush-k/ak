@@ -3,14 +3,10 @@ import logo from './img/logo.png';
 import yIcon from './img/yIcon.png';
 import gtIcon from './img/gtseal.png';
 import rIcon from './img/resurgens_iot.png';
-import iIcon from './img/iTrans2.png';
-import adlIcon from './img/ADL.png';
-import hIcon from './img/hackathon.png';
 import vipIcon from './img/vip.png';
 import rpmIcon from './img/rpm.png';
 import cvIcon from './img/cv.png';
 import fhIcon from './img/frameHuntBlack.png';
-import faceIcon from './img/face-detect.svg';
 import fIcon from './img/fb.png';
 import ptIcon from './img/DPTree.png';
 
@@ -25,7 +21,6 @@ import {
   InfoList
 } from './Components';
 
-const fillerIcon = (<div style={{ backgroundColor: 'red', width: '50px', height: '50px' }} />);
 
 class App extends Component {
   render() {
@@ -46,13 +41,22 @@ class App extends Component {
             <Divider />
             <Section title='Experience'>
             <div style={{width: '50%'}}>
-                {/* <InfoBlock
+                <InfoBlock
                   icon={fIcon}
                   title='Facebook'
-                  subheader='[Incoming] Software Engineering Intern'
+                  subheader='Software Engineering Intern'
                   setting={'Seattle, WA ● May 2018 - Aug 2018'}
                   description={'Messenger Assistant Team'}
-                /> */}
+                  listItemsA={[
+                    'Deployed e2e Neural Natural Language Generation pipeline',
+                    'Developed data collection scripts',
+                  ]}
+                  listItemsB={[
+                    ' into the assistant stack using context-aware decoder LSTMs',
+                    ' with heuristic-based automated annotations along with establishing guidelines & best practices for remote human-annotation teams',
+                  ]}
+                  link={'https://developers.facebook.com/videos/f8-2018/using-natural-language-processing-to-enhance-your-messenger-conversations/'}
+                />
                 <InfoBlock
                   icon={yIcon}
                   title='Yahoo: Tripod Project'
@@ -65,26 +69,25 @@ class App extends Component {
                   ]}
                   listItemsB={[
                     ' by implementing search metrics & analyzing query processing algorithm',
-                    ' in React.js to visualize EXIF-metadata/geodata for individual users'
+                    ' with React.js and Mapbox Supercluster to visualize EXIF-metadata/geodata for user photos'
                   ]}
                   link={'https://yahooeng.tumblr.com/post/157200523046/introducing-tripod-flickrs-backend-refactored'}
                 />
-                <InfoBlock
-                  icon={rIcon}
-                  title='Project Resurgens'
-                  subheader='AHNA AI/IOT Developer'
-                  setting='Atlanta, GA ● May 2016 - Aug 2017'
-                  description={'Georgia Tech’s Smart Solar Home & Internet of Things project emphasizing self-sustenance/net zero energy/carbon footprint'}
+                {/* <InfoBlock
+                  icon={iIcon}
+                  title='iTrans'
+                  subheader='Android Developer'
+                  setting='Atlanta, GA ● Jan 2016 - May 2016'
+                  description='Faculty-led research for developing a forecasting, computation, & communication system to optimize campus bus circulation'
                   listItemsB={[
-                    ' using outlet reading data to optimize energy consumption',
-                    ' that helps users track electricity & water savings/consumption over time',
+                    ' of route changes & weather forecasts with Android TextToSpeech & proximity alerts',
                   ]}
                   listItemsA={[
-                    'Training a classification model of electricity consumption',
-                    'Building cross-platform React Native App'
+                    'Automated bus stop announcements '
                   ]}
-                  link={'http://www.resurgenshome.com/'}
-                />
+                  link={'http://www.nextbuzz.gatech.edu/'}
+                /> */}
+
 
               </div>
               <div style={{width: '50%'}}>
@@ -104,6 +107,7 @@ class App extends Component {
                   ]}
                   link={'https://www.arondevelopers.com/'}
                 /> */}
+
                 <InfoBlock
                   icon={vipIcon}
                   title='Smart City Infrastructure'
@@ -121,19 +125,22 @@ class App extends Component {
                   link={'http://www.vip.gatech.edu/teams/smart-city-infrastructure'}
                 />
                 <InfoBlock
-                  icon={iIcon}
-                  title='iTrans'
-                  subheader='Android Developer'
-                  setting='Atlanta, GA ● Jan 2016 - May 2016'
-                  description='Faculty research on optimizing campus transportation systems & developing a forecasting, computation, & communication system to improve bus circulation'
+                  icon={rIcon}
+                  title='Project Resurgens'
+                  subheader='AHNA AI/IOT Developer'
+                  setting='Atlanta, GA ● May 2016 - Aug 2017'
+                  description={'Georgia Tech’s Smart Solar Home & Internet of Things project emphasizing self-sustenance/net zero energy/carbon footprint'}
                   listItemsB={[
-                    '  of bus stops with realtime broadcasts of route changes, upcoming cancellations & weather forecasts with Android TextToSpeech engine',
+                    ' using outlet reading data to optimize energy consumption',
+                    ' that helps users track electricity & water savings/consumption over time',
                   ]}
                   listItemsA={[
-                    'Implemented automated announcements '
+                    'Training a classification model of electricity consumption',
+                    'Building cross-platform React Native App'
                   ]}
-                  link={'http://www.nextbuzz.gatech.edu/'}
+                  link={'http://www.resurgenshome.com/'}
                 />
+
                 </div>
             </Section>
 
@@ -250,10 +257,11 @@ class App extends Component {
                 listItemsB={[
                   'Java',
                   'Python',
+                  'Hack/PHP',
                   'JavaScript',
                   'Matlab',
-                  'HTML/SASS/CSS',
                   'Ruby on Rails',
+                  // 'HTML/SASS/CSS',
                 ]}
               sidebar
               />
@@ -264,7 +272,7 @@ class App extends Component {
                   'Tensorflow',
                   'SKLearn/OpenCV',
                   'ReactJS/React Native',
-                  // 'Redux/ImmutableJS',
+                  'Redux/ImmutableJS',
                   'Android SDK',
                 ]}
               sidebar
@@ -272,12 +280,13 @@ class App extends Component {
               <InfoList
                 title='Dev Tools'
                 listItemsB={[
-                  'Jira Issue Tracking',
-                  'Designs/Mockups (Sketch)',
+                  'Git/Github Integrations',
+                  'Mercurial',
                   'Splunk',
-                  'Git/GitHub Workflow',
-                  'Linux/RHL (SSH)',
-                  'Enterprise Slack/Hipchat',
+                  'Jira Issue Tracking',
+                  'Linux/RHEL (SSH)',
+                  'Designs/Mockups (Sketch)',
+                  // 'Enterprise Slack/Hipchat',
                 ]}
               sidebar
               />
@@ -285,9 +294,9 @@ class App extends Component {
                 title='Relevant Courses'
                 listItemsB={[
                   'Natural Language Processing',
-                  'Knowledge-Based AI',
                   'Computer Vision',
-                  'Intro to AI',
+                  'Knowledge-Based AI',
+                  // 'Intro to AI',
                   'Robotics & Perception',
                   'Algorithm Design/Analysis',
                   'Info Visualization',
