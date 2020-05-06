@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './img/logo.png';
 import yIcon from './img/yIcon.png';
 import gtIcon from './img/gtseal.png';
-import rIcon from './img/resurgens_iot.png';
+import aIcon from './img/amzn.png';
 import vipIcon from './img/vip.png';
 import rpmIcon from './img/rpm.png';
 import cvIcon from './img/cv.png';
@@ -34,19 +34,35 @@ class App extends Component {
               <InfoBlock
                 icon={gtIcon}
                 title='Georgia Institute of Technology'
-                subheader='B.S. in Computer Science: Intelligence & HCI Threads - 3.83 GPA'
-                setting='Atlanta, GA ● Graduating May 2019'
+                subheader='B.S. in Computer Science: Intelligence & HCI Threads - 3.8 GPA'
+                setting='Atlanta, GA ● Graduated May 2019'
               />
             </Section>
             <Divider />
             <Section title='Experience'>
-            <div style={{width: '50%'}}>
+              <div style={{ width: '50%' }}>
+                {/* <InfoBlock
+                  icon={fIcon}
+                  title='GT E-Textiles'
+                  subheader='Technical Lead'
+                  setting={'Seattle, WA ● May 2018 - Aug 2018'}
+                  description={'Messenger Assistant Natural Language Generation Team'}
+                  listItemsA={[
+                    'Worked under Dr. Thad Starner',
+                    'Developed data collection scripts',
+                  ]}
+                  listItemsB={[
+                    ' into the assistant stack using context-aware decoder LSTMs',
+                    ' with heuristic-based automated annotations along with establishing guidelines & best practices for remote human-annotation teams',
+                  ]}
+                  link={'https://developers.facebook.com/videos/f8-2018/using-natural-language-processing-to-enhance-your-messenger-conversations/'}
+                /> */}
                 <InfoBlock
                   icon={fIcon}
-                  title='Facebook'
+                  title='Facebook Messenger'
                   subheader='Software Engineering Intern'
                   setting={'Seattle, WA ● May 2018 - Aug 2018'}
-                  description={'Messenger Assistant Team'}
+                  description={'Messenger Assistant Natural Language Generation Team'}
                   listItemsA={[
                     'Deployed e2e Neural Natural Language Generation pipeline',
                     'Developed data collection scripts',
@@ -59,10 +75,10 @@ class App extends Component {
                 />
                 <InfoBlock
                   icon={yIcon}
-                  title='Yahoo: Tripod Project'
-                  subheader='Tripod Engineering Intern'
+                  title='Yahoo Tripod'
+                  subheader='Software Engineering Intern'
                   setting={'San Francisco, CA ● May 2017 - Aug 2017'}
-                  description={'Yahoo\'s platform for commoditized photo & video storage, serving, enrichment, aggregation, & search'}
+                  description={'Tripod: Yahoo\'s platform for commoditized photo & video storage, serving, enrichment, aggregation, & search'}
                   listItemsA={[
                     'Improved image search parsing accuracy',
                     'Built Tripod Map/Image Viewer UI'
@@ -107,6 +123,22 @@ class App extends Component {
                   ]}
                   link={'https://www.arondevelopers.com/'}
                 /> */}
+                <InfoBlock
+                  icon={aIcon}
+                  title='Amazon Alexa'
+                  subheader='Software Engineering Intern'
+                  setting='Cambridge, MA ● Aug 2018 - Dec 2018'
+                  description='Alexa Entity Resolution & Search/Accuracy Team'
+                  listItemsA={[
+                    'Automated management of entity resolution configs',
+                    'Leveraged DynamoDB & Distributed Job Scheduling'
+                  ]}
+                  listItemsB={[
+                    ' using realtime accuracy & latency metrics to revert faulty changes',
+                    ' to store automated management settings per config & periodically monitor metrics for executing/suggesting rollbacks as needed'
+                  ]}
+                  link={'https://developer.amazon.com/blogs/alexa/post/5de2b24d-d932-4c6f-950d-d09d8ffdf4d4/entity-resolution-and-slot-validation'}
+                />
 
                 <InfoBlock
                   icon={vipIcon}
@@ -124,7 +156,7 @@ class App extends Component {
                   ]}
                   link={'http://www.vip.gatech.edu/teams/smart-city-infrastructure'}
                 />
-                <InfoBlock
+                {/* <InfoBlock
                   icon={rIcon}
                   title='Project Resurgens'
                   subheader='AHNA AI/IOT Developer'
@@ -139,7 +171,7 @@ class App extends Component {
                     'Building cross-platform React Native App'
                   ]}
                   link={'http://www.resurgenshome.com/'}
-                />
+                /> */}
 
                 </div>
             </Section>
