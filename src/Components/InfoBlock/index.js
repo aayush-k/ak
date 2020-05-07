@@ -14,12 +14,13 @@ class InfoBlock extends Component {
       listItemsB,
       link,
       sidebar,
+      fullWidth,
     } = this.props;
-    // const sidebarStyling = sidebar ? { style: { paddingLeft: 0 } } : {};
+    const containerStyling = { paddingLeft: sidebar ? 0 : undefined, width: fullWidth ? '100%' : undefined};
     // const sidebarStyling = {};
 
     return (
-      <div className='infoBlock_container' style={sidebar ? { paddingLeft: 0 } : {}} >
+      <div className='infoBlock_container' style={containerStyling} >
         <div className='infoBlock_header'>
           {icon && !sidebar && <div className='infoBlock_header_primary'>
             <img src={icon} alt={icon}/>

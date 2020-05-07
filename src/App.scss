@@ -11,6 +11,17 @@ html {
   padding-right: 0.4rem;
 }
 
+.column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.grouping_row {
+  display: flex;
+}
+
 .sidebar {
   width: 26.75%;
   margin-left: 0.7rem;
@@ -19,7 +30,7 @@ html {
 }
 
 .vertical_divider {
-  height: 88vh;
+  height: 89vh;
   width: 0.1rem;
   background-color: #dedede;
 }
@@ -30,15 +41,24 @@ html {
   display: flex;
   align-items: flex-end;
   flex-grow: 1;
+  opacity: 0.6;
 
   &_content {
-    margin-bottom: 3rem;
+    width: 100%;
+    margin-bottom: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &_icon {
     max-width: 1.5rem;
     max-height: 1.5rem;
-    margin-bottom: -0.4rem;
     margin-right: 0.5rem;
+  }
+
+  &_text {
+    font-size: 1.1em;
+    font-weight: 400;
   }
 }
