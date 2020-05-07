@@ -12,15 +12,19 @@ class InfoBlock extends Component {
       description,
       listItemsA,
       listItemsB,
-      link
+      link,
+      sidebar,
     } = this.props;
+    // const sidebarStyling = sidebar ? { style: { paddingLeft: 0 } } : {};
+    // const sidebarStyling = {};
+
     return (
-      <div className='infoBlock_container'>
+      <div className='infoBlock_container' style={sidebar ? { paddingLeft: 0 } : {}} >
         <div className='infoBlock_header'>
-          <div className='infoBlock_header_primary'>
+          {icon && !sidebar && <div className='infoBlock_header_primary'>
             <img src={icon} alt={icon}/>
-          </div>
-          <div className='infoBlock_header_secondary'>
+          </div>}
+          <div className='infoBlock_header_secondary' style={sidebar ? { paddingLeft: 0, paddingTop: 0 } : {}}>
 
             {link ? (<a href={link}>
               <h4>{title}
@@ -31,8 +35,8 @@ class InfoBlock extends Component {
                 </svg>
               </h4>
             </a>) : (<h4>{title}</h4>)}
-            <h5>{subheader}</h5>
-            <p style={{fontWeight: '700', fontSize: '0.7rem', color: '#999', textTransform: 'uppercase', letterSpacing: '1.5px', paddingTop: '0.1rem'}}>{setting}</p>
+            {subheader && <h5>{subheader}</h5>}
+            {setting && <p className='infoBlock_header_tertiary'>{setting}</p>}
           </div>
         </div>
         <p className='infoBlock_description'>{description}</p>
@@ -58,6 +62,7 @@ InfoBlock.propTypes = {
   listItemsA: PropTypes.arrayOf(PropTypes.string),
   listItemsB: PropTypes.arrayOf(PropTypes.string),
   link: PropTypes.string,
+  sidebar: PropTypes.bool,
 };
 
 export { InfoBlock };

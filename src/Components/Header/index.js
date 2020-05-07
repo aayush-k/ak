@@ -8,7 +8,7 @@ import akLogo from '../../img/aklogo.png'
 
 const me = [
   'github.com/aayush-k',
-  'aayush.kumar@gatech.edu',
+  'aayush.kumarmail@gmail.com',
   'linkedin.com/in/aayush-k',
   '(408) 859-6810',
   'San Jose, CA - U.S. Citizen'
@@ -24,7 +24,7 @@ const icons = [
 
 const urls = [
   'https://github.com/aayush-k',
-  'mailto:aayush.kumar@gatech.edu',
+  'mailto:aayush.kumarmail@gmail.com',
   'https://linkedin.com/in/aayush-k',
   undefined,
   undefined

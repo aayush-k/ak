@@ -7,13 +7,11 @@ class InfoList extends Component {
       title,
       listItemsA,
       listItemsB,
-      sidebar,
     } = this.props;
 
-    const styles = sidebar ? { width: '100%', paddingTop: '0.65rem' } : {};
 
     return (
-      <div className='infoList_container' style={styles}>
+      <div className='infoList_container'>
         <h4>{title}</h4>
         <ul>
           {listItemsB.map((item, index) =>

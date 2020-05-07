@@ -6,9 +6,34 @@ html {
   background-color: #fff;
 }
 
+.main_content {
+  width: 100%;
+  padding-right: 0.4rem;
+}
+
+.sidebar {
+  width: 26.75%;
+  margin-left: 0.7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical_divider {
+  height: 88vh;
+  width: 0.1rem;
+  background-color: #dedede;
+}
+
 .footer {
   color: #666;
   margin-top: -0.5rem;
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 1;
+
+  &_content {
+    margin-bottom: 3rem;
+  }
 
   &_icon {
     max-width: 1.5rem;

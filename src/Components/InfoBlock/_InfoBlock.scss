@@ -24,6 +24,14 @@
     &_secondary {
       padding: 0.25rem;
     }
+    &_tertiary {
+      font-weight: 700;
+      font-size: 0.7rem;
+      color: #999;
+      text-transform: uppercase;
+      letter-spacing: 1.25px;
+      padding-top: 0.1rem;
+    }
   }
   &_description {
     overflow: hidden;

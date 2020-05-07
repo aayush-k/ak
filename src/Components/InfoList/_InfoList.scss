@@ -1,9 +1,9 @@
 .infoList {
   &_container{
-    padding: 0.25rem 0.25rem 0.75rem 0.25rem;
+    padding: 0.75rem 0.25rem 0.75rem 0;
     display: inline-block;
     flex-grow: 1;
-    width: calc(25% - 0.5rem);
+    width: 100%;
     li {
       line-height: 1.35rem;
     }
