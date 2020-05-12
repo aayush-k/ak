@@ -17,7 +17,6 @@ class InfoBlock extends Component {
       fullWidth,
     } = this.props;
     const containerStyling = { paddingLeft: sidebar ? 0 : undefined, width: fullWidth ? '100%' : undefined};
-    // const sidebarStyling = {};
 
     return (
       <div className='infoBlock_container' style={containerStyling} >

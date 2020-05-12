@@ -60,11 +60,15 @@
     vertical-align: middle;
   }
 
-  &_contact_link {
-    color: #222;
+  &_contact {
+    &_spacer {
+      height: 0.25rem;
+    }
+    &_link {
+      color: #222;
+    }
   }
 }
-
 
 @keyframes header_logo_spin {
   from { transform: rotate(0deg); }

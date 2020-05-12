@@ -35,10 +35,11 @@ class App extends Component {
               <div className='grouping_row'>
                 <InfoBlock
                   icon={belo}
-                  title='Airbnb'
-                  subheader='Fullstack Software Engineer on PDP Team'
+                  title='Airbnb PDP'
+                  subheader='Fullstack Software Engineer'
                   setting='San Francisco, CA ● July 2019 - Present'
                   description='Optimized UX of Listing Product Detail Page (PDP) to increase bookings on Airbnb via feature-driven A/B Testing & maintainance'
+                  // TODO: add languages in descriptions
                   listItemsA={[
                     'Increased bookings by 1.3% globally',
                     'Served as POC for PDP Team\'s Covid-19 Response',
@@ -46,8 +47,13 @@ class App extends Component {
 
                   ]}
                   listItemsB={[
-                    ' by surfacing dynamically updated cancellation info tailored to user-inputed dates & improved the ranking mechanism of such info to support nontrivial product specs',
-                    ', coordinating technical efforts across 3 teams to address evolving product specs',
+                    ' by surfacing dynamic messages tailored to user-inputed trip details & improved the ranking mechanism of such messages to support nontrivial product specs',
+                    // by designing and implementing a new feature, dynamically informative messaging tailored to user-inputted trip details, across multiple backend services and web clients,
+                    // dynamically featured content tailored to user-inputted trip details
+                    // coordinating a tailored feature,
+                    // architecting improved ranking logic
+                    // verified by an A / B experimentation
+                    ', coordinating technical efforts across iOS/Android engineers and 3 teams to address evolving product specs',
                     ' such as a module for booking mechanisms & a cross-browser compatible carousel component, to be more performant, maintainable, & robust',
                   ]}
                   link={'https://next.airbnb.com/rooms/2736358?force_bingo=treatment'}
@@ -75,7 +81,7 @@ class App extends Component {
                 <InfoBlock
                   icon={fIcon}
                   title='Facebook Messenger'
-                  subheader='Software Engineering Intern'
+                  subheader='ML Engineering Intern '
                   setting={'Seattle, WA ● May 2018 - Aug 2018'}
                   description={'Messenger Assistant Natural Language Generation Team'}
                   listItemsA={[
@@ -91,7 +97,7 @@ class App extends Component {
                 <InfoBlock
                   icon={aIcon}
                   title='Amazon Alexa'
-                  subheader='Software Engineering Intern'
+                  subheader='Backend Engineering Intern'
                   setting='Cambridge, MA ● Aug 2018 - Dec 2018'
                   description='Alexa Entity Resolution & Search/Accuracy Team'
                   listItemsA={[
@@ -125,7 +131,7 @@ class App extends Component {
                 <InfoBlock
                   icon={yIcon}
                   title='Yahoo Tripod'
-                  subheader='Software Engineering Intern'
+                  subheader='Frontend Engineering Intern'
                   setting={'San Francisco, CA ● May 2017 - Aug 2017'}
                   description={'Tripod: Yahoo\'s platform for commoditized photo & video storage, serving, enrichment, aggregation, & search'}
                   listItemsA={[
@@ -279,6 +285,17 @@ class App extends Component {
                   'Info Visualization',
                   'User Interface Design',
                 ]}
+                fullWidth
+              />
+            </Section>
+            <Divider />
+            <Section title='Volunteering'>
+              <InfoBlock
+                sidebar
+                title='Microsoft Teals'
+                subheader='Intro to Python Teacher'
+                setting="San Francisco, CA ● Spring 2020"
+                description={'Taught introductory programming concepts in python to 61 students at El Camino High School'}
                 fullWidth
               />
             </Section>
