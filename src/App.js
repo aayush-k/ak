@@ -38,7 +38,7 @@ class App extends Component {
                   title='Airbnb PDP'
                   subheader='Fullstack Software Engineer'
                   setting='San Francisco, CA ● July 2019 - Present'
-                  description='Optimized UX of Listing Product Detail Page (PDP) to increase bookings on Airbnb via feature-driven A/B Testing & maintainance'
+                  description='Optimized UX of Listing Product Detail Page (PDP) to increase bookings on Airbnb via feature-driven A/B Testing & maintenance'
                   // TODO: add languages in descriptions
                   listItemsA={[
                     'Increased bookings by 1.3% globally',
