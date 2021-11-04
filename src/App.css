@@ -154,7 +154,8 @@ a:visited {
     text-align: center; }
     .infoBlock_header_primary img {
       max-height: 3.75rem;
-      max-width: 3.75rem; }
+      max-width: 3.75rem;
+      filter: grayscale(100%); }
   .infoBlock_header_secondary {
     padding: 0.25rem;
     padding-right: 0; }

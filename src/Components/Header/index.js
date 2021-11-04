@@ -11,7 +11,7 @@ const me = [
   'aayush.kumarmail@gmail.com',
   'linkedin.com/in/aayush-k',
   '(408) 859-6810',
-  'San Jose, CA - U.S. Citizen'
+  'San Francisco, CA - US Citizen'
 ];
 
 const icons = [
